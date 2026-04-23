@@ -7,6 +7,11 @@ import { Github, Mail, Palette } from "lucide-react"
 
 const themes = [
   {
+    id: "midnight",
+    label: "Midnight",
+    swatch: ["#0F0F1A", "#6366F1", "#F472B6"],
+  },
+  {
     id: "deep-sea",
     label: "Deep Sea",
     swatch: ["#0B1215", "#00F5FF", "#7CB8C9"],
@@ -43,7 +48,7 @@ function ThemePicker() {
   const [current, setCurrent] = useState("deep-sea")
 
   useEffect(() => {
-    const saved = localStorage.getItem("bradley-theme") || "ember"
+    const saved = localStorage.getItem("cj-theme") || "midnight"
     setCurrent(saved)
     document.documentElement.setAttribute("data-theme", saved)
   }, [])
@@ -51,7 +56,7 @@ function ThemePicker() {
   const setTheme = (id: string) => {
     setCurrent(id)
     document.documentElement.setAttribute("data-theme", id)
-    localStorage.setItem("bradley-theme", id)
+    localStorage.setItem("cj-theme", id)
     setOpen(false)
   }
 
@@ -138,7 +143,7 @@ export function VersionFooter() {
             style={{ color: "var(--brand-primary)" }}
           >
             <Mail className="w-[18px] h-[18px] sm:w-5 sm:h-5" />
-            <span className="hidden sm:inline">brad@cjgaldes.com</span>
+            <span className="hidden sm:inline">cj@cjgaldes.com</span>
           </a>
           <a
             href="https://github.com/tinymachines"
@@ -152,7 +157,7 @@ export function VersionFooter() {
           <span className="hidden sm:inline">Grand Rapids, MI</span>
         </div>
         <a
-          href={`https://github.com/tinymachines/bradley-io/commit/${buildInfo.commitHashFull}`}
+          href={`https://github.com/isenbek/cjgaldescom/commit/${buildInfo.commitHashFull}`}
           target="_blank"
           rel="noopener noreferrer"
           className="hover:opacity-80 transition-opacity"

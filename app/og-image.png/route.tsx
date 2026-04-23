@@ -48,7 +48,7 @@ export async function GET() {
             B
           </div>
           <span style={{ fontSize: "28px", fontWeight: 700, color: "#E8E2D9" }}>
-            bradley<span style={{ color: "#00F5FF", fontWeight: 400 }}>.io</span>
+            cjgaldes<span style={{ color: "#6366F1", fontWeight: 400 }}>.com</span>
           </span>
         </div>
 

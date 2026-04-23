@@ -137,7 +137,7 @@ function MobileDrawer({
                 <div className="flex items-center gap-2.5">
                   <ForgeIcon size={24} />
                   <span className="text-sm font-bold tracking-tight">
-                    bradley<span style={{ color: "var(--brand-primary)" }} className="font-normal">.io</span>
+                    cjgaldes<span style={{ color: "var(--brand-primary)" }} className="font-normal">.com</span>
                   </span>
                 </div>
                 <button

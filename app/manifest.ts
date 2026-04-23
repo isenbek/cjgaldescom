@@ -8,8 +8,8 @@ export default function manifest(): MetadataRoute.Manifest {
       "Hardware hacker, data architect, and AI pilot. Building at the intersection of enterprise scale and maker culture.",
     start_url: "/",
     display: "standalone",
-    background_color: "#1C1412",
-    theme_color: "#F59E0B",
+    background_color: "#0F0F1A",
+    theme_color: "#6366F1",
     icons: [
       {
         src: "/icon.svg",
