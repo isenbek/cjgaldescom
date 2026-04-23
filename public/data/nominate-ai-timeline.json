@@ -1,0 +1,8206 @@
+{
+  "generated": "2026-04-23T09:34:53.879816+00:00",
+  "org": "Nominate-AI",
+  "totalRepos": 98,
+  "firstCommit": "2022-12-09T19:55:42Z",
+  "latestCommit": "2026-04-23T09:00:19Z",
+  "totalCommits": 12861,
+  "languages": {
+    "Python": 67,
+    "TypeScript": 10,
+    "Shell": 5,
+    "HTML": 4,
+    "C": 2,
+    "MDX": 2,
+    "JavaScript": 1,
+    "CSS": 1
+  },
+  "activityHeatmap": [
+    {
+      "date": "2022-12-09",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-01-03",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-01-22",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-01-23",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-01-24",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-01-25",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-01-26",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-01-27",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-01-28",
+      "commits": 11,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-01-29",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-01-30",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-01-31",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-02",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-03",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-04",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-05",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-07",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-08",
+      "commits": 11,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-09",
+      "commits": 13,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-10",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-11",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-12",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-13",
+      "commits": 11,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-14",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-15",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-16",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-17",
+      "commits": 11,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-18",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-19",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-20",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-21",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-22",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-23",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-24",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-25",
+      "commits": 17,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-26",
+      "commits": 12,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-27",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-02-28",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-01",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-02",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-03",
+      "commits": 24,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-04",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-05",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-06",
+      "commits": 12,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-07",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-08",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-09",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-10",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-11",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-12",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-13",
+      "commits": 17,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-14",
+      "commits": 22,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-15",
+      "commits": 14,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-16",
+      "commits": 19,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-17",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-18",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-19",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-20",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-21",
+      "commits": 13,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-22",
+      "commits": 11,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-23",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-24",
+      "commits": 16,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-25",
+      "commits": 14,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-26",
+      "commits": 14,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-27",
+      "commits": 14,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-28",
+      "commits": 11,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-29",
+      "commits": 15,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-30",
+      "commits": 13,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-03-31",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-01",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-02",
+      "commits": 22,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-03",
+      "commits": 12,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-04",
+      "commits": 11,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-05",
+      "commits": 24,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-06",
+      "commits": 25,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-07",
+      "commits": 16,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-08",
+      "commits": 30,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-09",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-10",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-11",
+      "commits": 12,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-12",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-13",
+      "commits": 16,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-14",
+      "commits": 12,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-15",
+      "commits": 23,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-16",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-17",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-18",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-19",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-20",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-21",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-22",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-23",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-24",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-25",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-26",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-27",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-28",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-29",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-04-30",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-01",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-02",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-03",
+      "commits": 10,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-04",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-05",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-06",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-07",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-08",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-09",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-10",
+      "commits": 10,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-11",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-12",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-13",
+      "commits": 12,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-14",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-15",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-16",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-18",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-19",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-20",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-21",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-22",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-23",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-24",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-25",
+      "commits": 13,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-26",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-27",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-28",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-29",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-30",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-05-31",
+      "commits": 11,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-01",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-02",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-03",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-04",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-05",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-06",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-07",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-08",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-09",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-10",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-11",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-12",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-13",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-14",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-15",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-16",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-17",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-18",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-19",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-20",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-21",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-22",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-23",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-24",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-25",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-26",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-27",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-28",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-29",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-06-30",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-01",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-02",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-03",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-04",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-05",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-06",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-07",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-08",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-09",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-10",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-11",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-12",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-13",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-14",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-15",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-16",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-17",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-18",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-19",
+      "commits": 9,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-20",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-21",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-22",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-23",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-24",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-25",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-26",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-27",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-28",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-29",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-30",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-07-31",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-01",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-02",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-03",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-04",
+      "commits": 15,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-05",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-06",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-07",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-08",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-09",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-10",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-11",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-12",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-13",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-14",
+      "commits": 9,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-15",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-16",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-17",
+      "commits": 14,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-18",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-19",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-20",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-21",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-22",
+      "commits": 10,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-23",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-24",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-25",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-26",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-27",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-28",
+      "commits": 13,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-29",
+      "commits": 14,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-30",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-08-31",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-01",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-02",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-03",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-04",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-05",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-06",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-07",
+      "commits": 9,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-08",
+      "commits": 9,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-09",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-10",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-11",
+      "commits": 11,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-12",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-13",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-14",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-15",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-16",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-17",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-18",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-19",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-20",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-21",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-22",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-23",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-24",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-25",
+      "commits": 9,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-26",
+      "commits": 9,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-27",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-28",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-29",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-09-30",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-01",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-02",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-03",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-04",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-05",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-06",
+      "commits": 10,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-07",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-08",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-09",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-10",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-11",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-12",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-13",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-14",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-15",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-16",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-17",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-18",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-19",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-20",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-21",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-22",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-23",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-24",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-25",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-26",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-27",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-28",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-29",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-30",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-10-31",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-01",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-02",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-03",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-04",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-05",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-06",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-07",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-08",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-09",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-10",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-11",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-12",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-13",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-14",
+      "commits": 9,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-15",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-16",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-17",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-18",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-19",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-20",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-21",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-22",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-23",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-24",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-25",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-26",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-27",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-28",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-29",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-11-30",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-01",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-02",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-03",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-04",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-05",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-06",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-07",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-08",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-09",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-10",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-11",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-12",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-13",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-14",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-15",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-16",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-17",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-18",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-19",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-20",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-21",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-22",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-23",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-24",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-25",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-26",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-27",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-28",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-29",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-30",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2023-12-31",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-01",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-02",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-03",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-04",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-05",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-06",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-07",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-08",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-09",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-10",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-11",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-12",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-13",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-14",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-15",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-16",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-17",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-18",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-19",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-20",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-21",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-22",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-23",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-24",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-25",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-26",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-27",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-29",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-30",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-31",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-01",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-02",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-03",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-04",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-05",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-06",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-07",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-08",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-09",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-10",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-11",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-12",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-13",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-14",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-16",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-17",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-18",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-19",
+      "commits": 11,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-20",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-21",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-22",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-23",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-24",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-25",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-26",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-27",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-28",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-02-29",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-01",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-02",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-03",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-04",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-05",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-06",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-07",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-08",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-09",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-10",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-11",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-12",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-13",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-14",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-15",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-16",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-17",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-18",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-19",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-20",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-21",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-22",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-23",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-24",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-25",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-26",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-27",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-28",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-29",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-30",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-03-31",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-01",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-02",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-03",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-04",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-05",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-06",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-07",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-08",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-09",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-10",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-11",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-12",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-13",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-14",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-15",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-16",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-17",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-18",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-19",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-20",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-21",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-22",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-23",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-24",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-25",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-26",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-27",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-28",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-04-30",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-01",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-02",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-03",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-04",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-05",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-06",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-07",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-08",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-09",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-10",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-11",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-12",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-13",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-14",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-15",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-16",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-17",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-18",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-19",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-20",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-21",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-22",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-23",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-24",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-25",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-26",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-27",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-28",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-29",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-30",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-05-31",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-01",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-02",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-03",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-04",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-05",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-06",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-07",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-08",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-09",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-10",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-11",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-12",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-13",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-14",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-15",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-16",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-17",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-18",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-19",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-20",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-21",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-22",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-23",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-24",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-25",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-26",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-27",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-28",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-29",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-06-30",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-01",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-02",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-03",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-04",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-05",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-06",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-07",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-08",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-09",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-10",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-11",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-12",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-13",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-14",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-15",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-16",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-17",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-18",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-19",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-20",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-21",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-22",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-23",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-24",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-25",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-26",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-27",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-28",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-29",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-30",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-07-31",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-01",
+      "commits": 17,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-02",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-03",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-04",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-05",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-06",
+      "commits": 9,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-07",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-08",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-09",
+      "commits": 11,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-10",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-11",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-12",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-13",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-14",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-15",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-16",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-17",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-18",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-19",
+      "commits": 12,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-20",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-21",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-22",
+      "commits": 11,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-23",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-24",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-25",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-26",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-27",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-28",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-29",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-30",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-08-31",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-01",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-02",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-03",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-04",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-05",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-06",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-07",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-08",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-09",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-10",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-11",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-12",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-13",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-14",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-15",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-16",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-17",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-18",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-19",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-20",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-21",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-22",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-23",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-24",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-25",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-26",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-27",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-28",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-29",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-09-30",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-01",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-02",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-03",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-04",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-05",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-06",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-07",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-08",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-09",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-10",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-12",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-13",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-15",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-16",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-17",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-18",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-19",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-20",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-21",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-22",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-23",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-24",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-25",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-26",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-27",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-28",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-29",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-30",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-10-31",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-01",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-02",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-03",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-04",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-05",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-06",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-07",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-08",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-09",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-10",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-11",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-12",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-13",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-14",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-15",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-16",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-17",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-18",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-19",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-20",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-21",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-22",
+      "commits": 9,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-23",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-24",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-25",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-26",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-27",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-28",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-29",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-11-30",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-01",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-02",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-03",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-04",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-05",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-06",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-07",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-08",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-09",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-10",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-11",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-12",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-13",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-14",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-15",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-16",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-17",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-18",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-19",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-20",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-21",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-22",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-23",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-24",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-25",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-26",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-27",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-28",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-29",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-30",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-12-31",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-01",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-02",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-03",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-04",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-05",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-06",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-07",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-09",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-10",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-11",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-12",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-13",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-14",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-15",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-16",
+      "commits": 15,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-17",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-18",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-19",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-20",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-21",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-22",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-23",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-24",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-25",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-26",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-27",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-28",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-29",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-30",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-01-31",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-01",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-02",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-03",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-04",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-05",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-06",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-07",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-08",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-09",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-10",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-11",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-12",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-13",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-14",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-15",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-16",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-17",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-18",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-19",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-20",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-21",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-22",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-23",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-24",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-25",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-26",
+      "commits": 15,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-27",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-02-28",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-01",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-02",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-03",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-04",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-05",
+      "commits": 17,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-06",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-07",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-08",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-09",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-10",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-11",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-12",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-13",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-14",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-15",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-16",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-17",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-18",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-19",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-20",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-21",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-22",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-23",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-24",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-25",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-26",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-27",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-28",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-30",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-03-31",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-01",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-02",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-04",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-05",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-07",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-08",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-09",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-10",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-11",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-12",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-13",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-14",
+      "commits": 10,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-15",
+      "commits": 10,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-16",
+      "commits": 11,
+      "repos": 4,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-17",
+      "commits": 17,
+      "repos": 7,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-18",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-19",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-20",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-21",
+      "commits": 13,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-22",
+      "commits": 16,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-23",
+      "commits": 26,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-24",
+      "commits": 10,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-25",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-26",
+      "commits": 21,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-27",
+      "commits": 10,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-28",
+      "commits": 24,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-29",
+      "commits": 7,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-04-30",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-01",
+      "commits": 9,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-02",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-03",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-04",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-05",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-06",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-07",
+      "commits": 7,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-08",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-09",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-10",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-11",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-12",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-13",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-14",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-15",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-16",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-17",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-18",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-19",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-20",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-21",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-22",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-23",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-24",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-25",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-26",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-27",
+      "commits": 6,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-28",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-29",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-30",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-05-31",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-01",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-02",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-03",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-04",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-05",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-06",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-07",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-08",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-09",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-10",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-11",
+      "commits": 8,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-12",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-13",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-14",
+      "commits": 8,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-15",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-16",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-17",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-18",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-19",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-20",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-21",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-22",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-23",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-24",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-25",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-26",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-27",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-28",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-29",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-06-30",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-01",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-02",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-03",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-04",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-05",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-06",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-07",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-08",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-09",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-10",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-11",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-12",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-13",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-14",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-15",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-16",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-17",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-18",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-19",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-20",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-21",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-22",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-23",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-24",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-25",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-26",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-27",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-28",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-29",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-30",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-07-31",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-01",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-02",
+      "commits": 20,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-03",
+      "commits": 12,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-04",
+      "commits": 14,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-05",
+      "commits": 17,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-06",
+      "commits": 14,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-07",
+      "commits": 24,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-08",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-09",
+      "commits": 17,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-10",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-11",
+      "commits": 7,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-12",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-13",
+      "commits": 30,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-14",
+      "commits": 9,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-15",
+      "commits": 15,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-16",
+      "commits": 9,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-17",
+      "commits": 15,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-18",
+      "commits": 11,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-19",
+      "commits": 15,
+      "repos": 4,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-20",
+      "commits": 9,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-21",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-22",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-23",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-24",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-26",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-27",
+      "commits": 10,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-28",
+      "commits": 10,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-29",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-30",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-08-31",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-01",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-02",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-03",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-04",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-05",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-06",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-07",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-08",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-09",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-10",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-11",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-12",
+      "commits": 18,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-13",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-14",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-15",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-16",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-17",
+      "commits": 9,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-18",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-19",
+      "commits": 6,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-20",
+      "commits": 3,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-21",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-22",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-23",
+      "commits": 7,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-24",
+      "commits": 4,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-25",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-26",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-27",
+      "commits": 11,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-28",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-29",
+      "commits": 11,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-09-30",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-01",
+      "commits": 12,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-02",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-03",
+      "commits": 10,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-04",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-05",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-06",
+      "commits": 9,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-07",
+      "commits": 11,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-08",
+      "commits": 12,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-09",
+      "commits": 20,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-10",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-11",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-12",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-13",
+      "commits": 27,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-14",
+      "commits": 93,
+      "repos": 3,
+      "intensity": 3
+    },
+    {
+      "date": "2025-10-15",
+      "commits": 66,
+      "repos": 3,
+      "intensity": 2
+    },
+    {
+      "date": "2025-10-16",
+      "commits": 50,
+      "repos": 3,
+      "intensity": 2
+    },
+    {
+      "date": "2025-10-17",
+      "commits": 8,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-18",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-19",
+      "commits": 7,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-20",
+      "commits": 10,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-21",
+      "commits": 10,
+      "repos": 4,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-22",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-23",
+      "commits": 8,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-24",
+      "commits": 13,
+      "repos": 4,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-25",
+      "commits": 19,
+      "repos": 5,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-26",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-27",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-28",
+      "commits": 13,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-29",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-30",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-10-31",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-01",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-02",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-03",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-04",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-05",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-06",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-07",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-08",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-09",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-10",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-11",
+      "commits": 2,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-12",
+      "commits": 12,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-13",
+      "commits": 11,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-14",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-15",
+      "commits": 3,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-16",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-17",
+      "commits": 1,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-18",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-19",
+      "commits": 4,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-20",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-21",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-22",
+      "commits": 4,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-23",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-24",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-25",
+      "commits": 18,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-26",
+      "commits": 18,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-27",
+      "commits": 7,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-28",
+      "commits": 5,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-29",
+      "commits": 6,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-11-30",
+      "commits": 3,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-01",
+      "commits": 5,
+      "repos": 2,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-02",
+      "commits": 20,
+      "repos": 4,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-03",
+      "commits": 18,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-04",
+      "commits": 16,
+      "repos": 4,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-05",
+      "commits": 14,
+      "repos": 4,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-06",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-07",
+      "commits": 2,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-08",
+      "commits": 9,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-09",
+      "commits": 8,
+      "repos": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-10",
+      "commits": 12,
+      "repos": 4,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-11",
+      "commits": 24,
+      "repos": 4,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-12",
+      "commits": 21,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-13",
+      "commits": 15,
+      "repos": 5,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-14",
+      "commits": 8,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-15",
+      "commits": 46,
+      "repos": 8,
+      "intensity": 2
+    },
+    {
+      "date": "2025-12-16",
+      "commits": 37,
+      "repos": 4,
+      "intensity": 2
+    },
+    {
+      "date": "2025-12-17",
+      "commits": 37,
+      "repos": 6,
+      "intensity": 2
+    },
+    {
+      "date": "2025-12-18",
+      "commits": 28,
+      "repos": 4,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-19",
+      "commits": 36,
+      "repos": 4,
+      "intensity": 2
+    },
+    {
+      "date": "2025-12-20",
+      "commits": 34,
+      "repos": 7,
+      "intensity": 2
+    },
+    {
+      "date": "2025-12-21",
+      "commits": 26,
+      "repos": 7,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-22",
+      "commits": 34,
+      "repos": 9,
+      "intensity": 2
+    },
+    {
+      "date": "2025-12-23",
+      "commits": 49,
+      "repos": 7,
+      "intensity": 2
+    },
+    {
+      "date": "2025-12-24",
+      "commits": 26,
+      "repos": 8,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-25",
+      "commits": 12,
+      "repos": 7,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-26",
+      "commits": 24,
+      "repos": 7,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-27",
+      "commits": 30,
+      "repos": 6,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-28",
+      "commits": 12,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-29",
+      "commits": 22,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-30",
+      "commits": 12,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2025-12-31",
+      "commits": 18,
+      "repos": 6,
+      "intensity": 1
+    },
+    {
+      "date": "2026-01-01",
+      "commits": 19,
+      "repos": 7,
+      "intensity": 1
+    },
+    {
+      "date": "2026-01-02",
+      "commits": 28,
+      "repos": 10,
+      "intensity": 1
+    },
+    {
+      "date": "2026-01-03",
+      "commits": 41,
+      "repos": 9,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-04",
+      "commits": 19,
+      "repos": 5,
+      "intensity": 1
+    },
+    {
+      "date": "2026-01-05",
+      "commits": 26,
+      "repos": 5,
+      "intensity": 1
+    },
+    {
+      "date": "2026-01-06",
+      "commits": 49,
+      "repos": 10,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-07",
+      "commits": 59,
+      "repos": 9,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-08",
+      "commits": 60,
+      "repos": 8,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-09",
+      "commits": 53,
+      "repos": 8,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-10",
+      "commits": 13,
+      "repos": 3,
+      "intensity": 1
+    },
+    {
+      "date": "2026-01-11",
+      "commits": 25,
+      "repos": 5,
+      "intensity": 1
+    },
+    {
+      "date": "2026-01-12",
+      "commits": 40,
+      "repos": 12,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-13",
+      "commits": 37,
+      "repos": 6,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-14",
+      "commits": 43,
+      "repos": 6,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-15",
+      "commits": 26,
+      "repos": 9,
+      "intensity": 1
+    },
+    {
+      "date": "2026-01-16",
+      "commits": 77,
+      "repos": 14,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-17",
+      "commits": 41,
+      "repos": 9,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-18",
+      "commits": 28,
+      "repos": 12,
+      "intensity": 1
+    },
+    {
+      "date": "2026-01-19",
+      "commits": 17,
+      "repos": 6,
+      "intensity": 1
+    },
+    {
+      "date": "2026-01-20",
+      "commits": 51,
+      "repos": 7,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-21",
+      "commits": 56,
+      "repos": 11,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-22",
+      "commits": 61,
+      "repos": 8,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-23",
+      "commits": 57,
+      "repos": 10,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-24",
+      "commits": 18,
+      "repos": 9,
+      "intensity": 1
+    },
+    {
+      "date": "2026-01-25",
+      "commits": 26,
+      "repos": 7,
+      "intensity": 1
+    },
+    {
+      "date": "2026-01-26",
+      "commits": 61,
+      "repos": 20,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-27",
+      "commits": 59,
+      "repos": 11,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-28",
+      "commits": 120,
+      "repos": 27,
+      "intensity": 3
+    },
+    {
+      "date": "2026-01-29",
+      "commits": 53,
+      "repos": 18,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-30",
+      "commits": 52,
+      "repos": 13,
+      "intensity": 2
+    },
+    {
+      "date": "2026-01-31",
+      "commits": 49,
+      "repos": 10,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-01",
+      "commits": 83,
+      "repos": 27,
+      "intensity": 3
+    },
+    {
+      "date": "2026-02-02",
+      "commits": 55,
+      "repos": 10,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-03",
+      "commits": 77,
+      "repos": 7,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-04",
+      "commits": 55,
+      "repos": 7,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-05",
+      "commits": 86,
+      "repos": 9,
+      "intensity": 3
+    },
+    {
+      "date": "2026-02-06",
+      "commits": 72,
+      "repos": 25,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-07",
+      "commits": 71,
+      "repos": 14,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-08",
+      "commits": 43,
+      "repos": 14,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-09",
+      "commits": 70,
+      "repos": 13,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-10",
+      "commits": 75,
+      "repos": 10,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-11",
+      "commits": 57,
+      "repos": 12,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-12",
+      "commits": 59,
+      "repos": 10,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-13",
+      "commits": 45,
+      "repos": 12,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-14",
+      "commits": 48,
+      "repos": 10,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-15",
+      "commits": 50,
+      "repos": 12,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-16",
+      "commits": 53,
+      "repos": 14,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-17",
+      "commits": 130,
+      "repos": 17,
+      "intensity": 3
+    },
+    {
+      "date": "2026-02-18",
+      "commits": 42,
+      "repos": 9,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-19",
+      "commits": 12,
+      "repos": 7,
+      "intensity": 1
+    },
+    {
+      "date": "2026-02-20",
+      "commits": 117,
+      "repos": 25,
+      "intensity": 3
+    },
+    {
+      "date": "2026-02-21",
+      "commits": 92,
+      "repos": 28,
+      "intensity": 3
+    },
+    {
+      "date": "2026-02-22",
+      "commits": 37,
+      "repos": 13,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-23",
+      "commits": 56,
+      "repos": 21,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-24",
+      "commits": 83,
+      "repos": 15,
+      "intensity": 3
+    },
+    {
+      "date": "2026-02-25",
+      "commits": 54,
+      "repos": 18,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-26",
+      "commits": 57,
+      "repos": 18,
+      "intensity": 2
+    },
+    {
+      "date": "2026-02-27",
+      "commits": 104,
+      "repos": 32,
+      "intensity": 3
+    },
+    {
+      "date": "2026-02-28",
+      "commits": 64,
+      "repos": 22,
+      "intensity": 2
+    },
+    {
+      "date": "2026-03-01",
+      "commits": 46,
+      "repos": 12,
+      "intensity": 2
+    },
+    {
+      "date": "2026-03-02",
+      "commits": 44,
+      "repos": 22,
+      "intensity": 2
+    },
+    {
+      "date": "2026-03-03",
+      "commits": 24,
+      "repos": 8,
+      "intensity": 1
+    },
+    {
+      "date": "2026-03-04",
+      "commits": 49,
+      "repos": 18,
+      "intensity": 2
+    },
+    {
+      "date": "2026-03-05",
+      "commits": 17,
+      "repos": 9,
+      "intensity": 1
+    },
+    {
+      "date": "2026-03-06",
+      "commits": 182,
+      "repos": 60,
+      "intensity": 4
+    },
+    {
+      "date": "2026-03-07",
+      "commits": 30,
+      "repos": 11,
+      "intensity": 1
+    },
+    {
+      "date": "2026-03-08",
+      "commits": 29,
+      "repos": 8,
+      "intensity": 1
+    },
+    {
+      "date": "2026-03-09",
+      "commits": 42,
+      "repos": 11,
+      "intensity": 2
+    },
+    {
+      "date": "2026-03-10",
+      "commits": 79,
+      "repos": 16,
+      "intensity": 3
+    },
+    {
+      "date": "2026-03-11",
+      "commits": 95,
+      "repos": 40,
+      "intensity": 3
+    },
+    {
+      "date": "2026-03-12",
+      "commits": 63,
+      "repos": 19,
+      "intensity": 2
+    },
+    {
+      "date": "2026-03-13",
+      "commits": 49,
+      "repos": 14,
+      "intensity": 2
+    },
+    {
+      "date": "2026-03-14",
+      "commits": 52,
+      "repos": 39,
+      "intensity": 2
+    },
+    {
+      "date": "2026-03-15",
+      "commits": 15,
+      "repos": 9,
+      "intensity": 1
+    },
+    {
+      "date": "2026-03-16",
+      "commits": 80,
+      "repos": 14,
+      "intensity": 3
+    },
+    {
+      "date": "2026-03-17",
+      "commits": 54,
+      "repos": 15,
+      "intensity": 2
+    },
+    {
+      "date": "2026-03-18",
+      "commits": 72,
+      "repos": 15,
+      "intensity": 2
+    },
+    {
+      "date": "2026-03-19",
+      "commits": 124,
+      "repos": 13,
+      "intensity": 3
+    },
+    {
+      "date": "2026-03-20",
+      "commits": 55,
+      "repos": 11,
+      "intensity": 2
+    },
+    {
+      "date": "2026-03-21",
+      "commits": 20,
+      "repos": 8,
+      "intensity": 1
+    },
+    {
+      "date": "2026-03-22",
+      "commits": 83,
+      "repos": 48,
+      "intensity": 3
+    },
+    {
+      "date": "2026-03-23",
+      "commits": 43,
+      "repos": 17,
+      "intensity": 2
+    },
+    {
+      "date": "2026-03-24",
+      "commits": 44,
+      "repos": 10,
+      "intensity": 2
+    },
+    {
+      "date": "2026-03-25",
+      "commits": 28,
+      "repos": 12,
+      "intensity": 1
+    },
+    {
+      "date": "2026-03-26",
+      "commits": 117,
+      "repos": 15,
+      "intensity": 3
+    },
+    {
+      "date": "2026-03-27",
+      "commits": 74,
+      "repos": 13,
+      "intensity": 2
+    },
+    {
+      "date": "2026-03-28",
+      "commits": 23,
+      "repos": 11,
+      "intensity": 1
+    },
+    {
+      "date": "2026-03-29",
+      "commits": 22,
+      "repos": 12,
+      "intensity": 1
+    },
+    {
+      "date": "2026-03-30",
+      "commits": 86,
+      "repos": 9,
+      "intensity": 3
+    },
+    {
+      "date": "2026-03-31",
+      "commits": 56,
+      "repos": 10,
+      "intensity": 2
+    },
+    {
+      "date": "2026-04-01",
+      "commits": 20,
+      "repos": 8,
+      "intensity": 1
+    },
+    {
+      "date": "2026-04-02",
+      "commits": 106,
+      "repos": 21,
+      "intensity": 3
+    },
+    {
+      "date": "2026-04-03",
+      "commits": 188,
+      "repos": 63,
+      "intensity": 4
+    },
+    {
+      "date": "2026-04-04",
+      "commits": 62,
+      "repos": 21,
+      "intensity": 2
+    },
+    {
+      "date": "2026-04-05",
+      "commits": 31,
+      "repos": 7,
+      "intensity": 1
+    },
+    {
+      "date": "2026-04-06",
+      "commits": 96,
+      "repos": 32,
+      "intensity": 3
+    },
+    {
+      "date": "2026-04-07",
+      "commits": 59,
+      "repos": 15,
+      "intensity": 2
+    },
+    {
+      "date": "2026-04-08",
+      "commits": 110,
+      "repos": 15,
+      "intensity": 3
+    },
+    {
+      "date": "2026-04-09",
+      "commits": 29,
+      "repos": 8,
+      "intensity": 1
+    },
+    {
+      "date": "2026-04-10",
+      "commits": 44,
+      "repos": 10,
+      "intensity": 2
+    },
+    {
+      "date": "2026-04-11",
+      "commits": 100,
+      "repos": 52,
+      "intensity": 3
+    },
+    {
+      "date": "2026-04-12",
+      "commits": 49,
+      "repos": 21,
+      "intensity": 2
+    },
+    {
+      "date": "2026-04-13",
+      "commits": 92,
+      "repos": 14,
+      "intensity": 3
+    },
+    {
+      "date": "2026-04-14",
+      "commits": 79,
+      "repos": 20,
+      "intensity": 3
+    },
+    {
+      "date": "2026-04-15",
+      "commits": 145,
+      "repos": 14,
+      "intensity": 4
+    },
+    {
+      "date": "2026-04-16",
+      "commits": 225,
+      "repos": 17,
+      "intensity": 4
+    },
+    {
+      "date": "2026-04-17",
+      "commits": 149,
+      "repos": 44,
+      "intensity": 4
+    },
+    {
+      "date": "2026-04-18",
+      "commits": 30,
+      "repos": 7,
+      "intensity": 1
+    },
+    {
+      "date": "2026-04-19",
+      "commits": 87,
+      "repos": 56,
+      "intensity": 3
+    },
+    {
+      "date": "2026-04-20",
+      "commits": 55,
+      "repos": 13,
+      "intensity": 2
+    },
+    {
+      "date": "2026-04-21",
+      "commits": 106,
+      "repos": 14,
+      "intensity": 3
+    },
+    {
+      "date": "2026-04-22",
+      "commits": 53,
+      "repos": 11,
+      "intensity": 2
+    },
+    {
+      "date": "2026-04-23",
+      "commits": 27,
+      "repos": 9,
+      "intensity": 1
+    }
+  ],
+  "phases": [
+    {
+      "name": "Phase 1",
+      "startDate": "2025-04-14",
+      "endDate": "2025-04-26",
+      "description": "Development of quantifi, meshnet, weeds and 4 more repos.",
+      "repos": [
+        "quantifi",
+        "meshnet",
+        "weeds",
+        "invoicehunter",
+        "pollstar",
+        "spydr",
+        "mapr"
+      ],
+      "milestones": [],
+      "category": "systems"
+    },
+    {
+      "name": "Phase 2",
+      "startDate": "2025-05-06",
+      "endDate": "2025-08-16",
+      "description": "Development of maild, maild-ui, maild-exec and 4 more repos.",
+      "repos": [
+        "maild",
+        "maild-ui",
+        "maild-exec",
+        "pocket",
+        "lochness",
+        "cryptid",
+        "mog"
+      ],
+      "milestones": [],
+      "category": "systems"
+    },
+    {
+      "name": "Phase 3",
+      "startDate": "2025-08-22",
+      "endDate": "2025-11-25",
+      "description": "Development of flock, lazarus, seedbed and 4 more repos.",
+      "repos": [
+        "flock",
+        "lazarus",
+        "seedbed",
+        "clarion",
+        "campainbrain",
+        "oym",
+        "cbtenant"
+      ],
+      "milestones": [],
+      "category": "systems"
+    },
+    {
+      "name": "Phase 4",
+      "startDate": "2025-12-02",
+      "endDate": "2025-12-13",
+      "description": "Development of cbworkflow, cbapp, system and 4 more repos.",
+      "repos": [
+        "cbworkflow",
+        "cbapp",
+        "system",
+        "cbetl",
+        "cbai",
+        "cbpublic",
+        "cbdistricts"
+      ],
+      "milestones": [],
+      "category": "systems"
+    },
+    {
+      "name": "Phase 5",
+      "startDate": "2025-12-17",
+      "endDate": "2025-12-26",
+      "description": "Development of cbmodels, cbradio, cbsurveys and 4 more repos.",
+      "repos": [
+        "cbmodels",
+        "cbradio",
+        "cbsurveys",
+        "cbinfra",
+        "cbfiles",
+        "cbdocs",
+        "cbmesh"
+      ],
+      "milestones": [],
+      "category": "systems"
+    },
+    {
+      "name": "Phase 6",
+      "startDate": "2025-12-30",
+      "endDate": "2026-01-16",
+      "description": "Development of cbintel, cbproject, cbauth and 4 more repos.",
+      "repos": [
+        "cbintel",
+        "cbproject",
+        "cbauth",
+        "cbos",
+        "cbmaintain",
+        "cbtest",
+        "cbsms"
+      ],
+      "milestones": [],
+      "category": "systems"
+    },
+    {
+      "name": "Phase 7",
+      "startDate": "2026-01-16",
+      "endDate": "2026-01-25",
+      "description": "Development of cbunstruct, cbtor, cbmobile and 4 more repos.",
+      "repos": [
+        "cbunstruct",
+        "cbtor",
+        "cbmobile",
+        "cbuserguide",
+        "cbemail",
+        "cbindex",
+        "cbtiles"
+      ],
+      "milestones": [],
+      "category": "systems"
+    },
+    {
+      "name": "Phase 8",
+      "startDate": "2026-01-26",
+      "endDate": "2026-01-31",
+      "description": "Development of cbgeo, cbmaps, cbcli and 4 more repos.",
+      "repos": [
+        "cbgeo",
+        "cbmaps",
+        "cbcli",
+        "cbcdn",
+        "cbcore",
+        "cblinks",
+        "cbscout"
+      ],
+      "milestones": [],
+      "category": "systems"
+    },
+    {
+      "name": "Phase 9",
+      "startDate": "2026-02-02",
+      "endDate": "2026-02-10",
+      "description": "Development of cboverseer, cbwebhook, cbissues and 4 more repos.",
+      "repos": [
+        "cboverseer",
+        "cbwebhook",
+        "cbissues",
+        "cbpulse",
+        "cbvpn",
+        "cbpayments",
+        "cbsocial"
+      ],
+      "milestones": [],
+      "category": "systems"
+    },
+    {
+      "name": "Phase 10",
+      "startDate": "2026-02-15",
+      "endDate": "2026-02-22",
+      "description": "Development of cbmcp, cbnetwork, cbexecutive and 4 more repos.",
+      "repos": [
+        "cbmcp",
+        "cbnetwork",
+        "cbexecutive",
+        "RCI-Frontend",
+        "cbpulse-ui",
+        "cbfront",
+        "vip-frontend"
+      ],
+      "milestones": [],
+      "category": "systems"
+    },
+    {
+      "name": "Phase 11",
+      "startDate": "2026-02-22",
+      "endDate": "2026-02-28",
+      "description": "Development of cbradio-ui, cbrouter, cbtemplates and 4 more repos.",
+      "repos": [
+        "cbradio-ui",
+        "cbrouter",
+        "cbtemplates",
+        "cbradio-web",
+        "cbcron",
+        "cblogs",
+        "cbcomfy"
+      ],
+      "milestones": [],
+      "category": "systems"
+    },
+    {
+      "name": "Phase 12",
+      "startDate": "2026-02-28",
+      "endDate": "2026-03-12",
+      "description": "Development of cbtts, cbdc, cbqa and 4 more repos.",
+      "repos": [
+        "cbtts",
+        "cbdc",
+        "cbqa",
+        "cbairtable",
+        "cbiterable",
+        "cbhandbook",
+        "infrastructure"
+      ],
+      "milestones": [],
+      "category": "systems"
+    },
+    {
+      "name": "Phase 13",
+      "startDate": "2026-03-17",
+      "endDate": "2026-03-28",
+      "description": "Development of cbea, cbinfrasays, cbops and 4 more repos.",
+      "repos": [
+        "cbea",
+        "cbinfrasays",
+        "cbops",
+        "cbesig",
+        "cbloom",
+        "automation-spotlight",
+        "cbingest"
+      ],
+      "milestones": [],
+      "category": "systems"
+    },
+    {
+      "name": "Phase 14",
+      "startDate": "2026-04-02",
+      "endDate": "2026-04-21",
+      "description": "Development of cbskills, mission-control, loomjs and 4 more repos.",
+      "repos": [
+        "cbskills",
+        "mission-control",
+        "loomjs",
+        "cbworkspaces",
+        "cbquickbooks",
+        "pulse-hr-kit",
+        "cbbanking"
+      ],
+      "milestones": [],
+      "category": "systems"
+    }
+  ],
+  "repos": [
+    {
+      "name": "cbunstruct",
+      "description": "Unstructured Document Processing API - FastAPI wrapper for the unstructured library",
+      "language": "Python",
+      "commits": 329,
+      "firstCommit": "2022-12-09T19:55:42Z",
+      "lastCommit": "2026-04-19T23:29:05Z",
+      "phase": "Phase 7"
+    },
+    {
+      "name": "cbcomfy",
+      "description": "ComfyUI generative AI backend with FastAPI proxy, sprite generation, and CDN integration",
+      "language": "Python",
+      "commits": 4819,
+      "firstCommit": "2023-01-03T06:53:32Z",
+      "lastCommit": "2026-04-17T03:16:41Z",
+      "phase": "Phase 11"
+    },
+    {
+      "name": "quantifi",
+      "description": "The quantifi repository is a Python project that provides tools for processing Slack and SQL data, including embedding-based query retrieval, state machine frameworks, and database integration.",
+      "language": "Python",
+      "commits": 50,
+      "firstCommit": "2025-04-14T06:55:51Z",
+      "lastCommit": "2026-03-06T02:22:21Z",
+      "phase": "Phase 1"
+    },
+    {
+      "name": "meshnet",
+      "description": "Backplane messaging platform",
+      "language": "C",
+      "commits": 3,
+      "firstCommit": "2025-04-16T05:42:20Z",
+      "lastCommit": "2025-04-17T08:01:53Z",
+      "phase": "Phase 1"
+    },
+    {
+      "name": "weeds",
+      "description": "Lead finder",
+      "language": "Python",
+      "commits": 4,
+      "firstCommit": "2025-04-16T06:35:57Z",
+      "lastCommit": "2025-04-17T06:28:41Z",
+      "phase": "Phase 1"
+    },
+    {
+      "name": "invoicehunter",
+      "description": "Scan email for financial message and parse the data",
+      "language": "HTML",
+      "commits": 49,
+      "firstCommit": "2025-04-17T04:44:23Z",
+      "lastCommit": "2026-03-06T02:15:44Z",
+      "phase": "Phase 1"
+    },
+    {
+      "name": "pollstar",
+      "description": "Polling reinvented",
+      "language": "Python",
+      "commits": 2,
+      "firstCommit": "2025-04-17T06:07:17Z",
+      "lastCommit": "2025-04-17T07:59:57Z",
+      "phase": "Phase 1"
+    },
+    {
+      "name": "spydr",
+      "description": "Crawler / web snapshots",
+      "language": "Python",
+      "commits": 4,
+      "firstCommit": "2025-04-17T08:03:11Z",
+      "lastCommit": "2026-03-06T02:19:22Z",
+      "phase": "Phase 1"
+    },
+    {
+      "name": "mapr",
+      "description": "Header mapping",
+      "language": "Python",
+      "commits": 13,
+      "firstCommit": "2025-04-27T04:28:53Z",
+      "lastCommit": "2025-04-29T02:29:25Z",
+      "phase": "Phase 1"
+    },
+    {
+      "name": "pocket",
+      "description": "Pocket Field Kit",
+      "language": "HTML",
+      "commits": 8,
+      "firstCommit": "2025-05-01T21:48:30Z",
+      "lastCommit": "2025-06-12T06:09:18Z",
+      "phase": "Phase 2"
+    },
+    {
+      "name": "maild",
+      "description": "Commits: feat: refactor pipeline scripts and service setup; docs: Create comprehensive, modern README.md; Fix core infrastructure and achieve 100% test pass rate; Project reorganization: Make pip-installable with clean structure",
+      "language": "Python",
+      "commits": 6,
+      "firstCommit": "2025-05-06T16:30:35Z",
+      "lastCommit": "2026-03-06T02:16:36Z",
+      "phase": "Phase 2"
+    },
+    {
+      "name": "maild-ui",
+      "description": "Commits: Update README with comprehensive documentation",
+      "language": "Python",
+      "commits": 2,
+      "firstCommit": "2025-05-07T01:59:23Z",
+      "lastCommit": "2025-05-07T03:05:39Z",
+      "phase": "Phase 2"
+    },
+    {
+      "name": "maild-exec",
+      "description": "Commits: Fix URL encoding in Gmail IMAP connection and improve error handling; Initialize gmail-mirror project with build fix",
+      "language": "C",
+      "commits": 2,
+      "firstCommit": "2025-05-07T03:43:27Z",
+      "lastCommit": "2025-05-07T04:16:42Z",
+      "phase": "Phase 2"
+    },
+    {
+      "name": "lochness",
+      "description": "Deep lake monsters",
+      "language": "HTML",
+      "commits": 144,
+      "firstCommit": "2025-08-01T00:35:43Z",
+      "lastCommit": "2025-09-20T02:45:55Z",
+      "phase": "Phase 2"
+    },
+    {
+      "name": "cryptid",
+      "description": "Commits: Add complete conversion documentation and batch processing tools; Fix installation issues and improve setup process; Complete working MVP of Observable to PowerPoint converter; Add working Observable to PowerPoint converter; Remove embedded git repository",
+      "language": "Python",
+      "commits": 6,
+      "firstCommit": "2025-08-15T17:03:08Z",
+      "lastCommit": "2025-08-15T19:33:34Z",
+      "phase": "Phase 2"
+    },
+    {
+      "name": "mog",
+      "description": "A Python project with significant development and testing, achieving production-ready system with high success rates.",
+      "language": "Python",
+      "commits": 33,
+      "firstCommit": "2025-08-16T18:25:39Z",
+      "lastCommit": "2026-03-06T02:15:18Z",
+      "phase": "Phase 2"
+    },
+    {
+      "name": "flock",
+      "description": "Commits: ",
+      "language": "Unknown",
+      "commits": 0,
+      "firstCommit": "2025-08-22T18:36:57Z",
+      "lastCommit": "2025-08-22T18:36:57Z",
+      "phase": "Phase 3"
+    },
+    {
+      "name": "lazarus",
+      "description": "",
+      "language": "Python",
+      "commits": 55,
+      "firstCommit": "2025-09-17T03:05:51Z",
+      "lastCommit": "2025-10-27T14:14:27Z",
+      "phase": "Phase 3"
+    },
+    {
+      "name": "seedbed",
+      "description": "Commits: Add comprehensive testing infrastructure and documentation",
+      "language": "Python",
+      "commits": 2,
+      "firstCommit": "2025-09-23T22:30:56Z",
+      "lastCommit": "2025-09-24T05:08:14Z",
+      "phase": "Phase 3"
+    },
+    {
+      "name": "clarion",
+      "description": "",
+      "language": "TypeScript",
+      "commits": 125,
+      "firstCommit": "2025-10-13T20:09:18Z",
+      "lastCommit": "2025-11-11T19:48:32Z",
+      "phase": "Phase 3"
+    },
+    {
+      "name": "oym",
+      "description": "",
+      "language": "TypeScript",
+      "commits": 140,
+      "firstCommit": "2025-10-13T20:09:18Z",
+      "lastCommit": "2025-11-13T21:54:06Z",
+      "phase": "Phase 3"
+    },
+    {
+      "name": "campainbrain",
+      "description": "Commits: ",
+      "language": "Unknown",
+      "commits": 0,
+      "firstCommit": "2025-10-30T14:29:06Z",
+      "lastCommit": "2025-10-30T14:29:06Z",
+      "phase": "Phase 3"
+    },
+    {
+      "name": "cbtenant",
+      "description": "",
+      "language": "Python",
+      "commits": 185,
+      "firstCommit": "2025-10-30T16:58:15Z",
+      "lastCommit": "2026-04-23T04:03:42Z",
+      "phase": "Phase 3"
+    },
+    {
+      "name": "cbworkflow",
+      "description": "",
+      "language": "Python",
+      "commits": 77,
+      "firstCommit": "2025-12-02T21:07:30Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 4"
+    },
+    {
+      "name": "cbapp",
+      "description": "The cbapp repository appears to be a Python-based project that has undergone significant updates and refactoring, including domain migrations, API additions, and feature enhancements. Recent commits have focused on improving the user interface, adding new features such as Typeform integration, and fixing bugs. The repository is now in a state of active development.",
+      "language": "Python",
+      "commits": 440,
+      "firstCommit": "2025-12-02T23:55:28Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 4"
+    },
+    {
+      "name": "system",
+      "description": "",
+      "language": "Shell",
+      "commits": 7,
+      "firstCommit": "2025-12-10T18:05:37Z",
+      "lastCommit": "2025-12-13T18:04:58Z",
+      "phase": "Phase 4"
+    },
+    {
+      "name": "cbdistricts",
+      "description": "",
+      "language": "Python",
+      "commits": 100,
+      "firstCommit": "2025-12-13T21:24:17Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 4"
+    },
+    {
+      "name": "cbpublic",
+      "description": "",
+      "language": "Python",
+      "commits": 35,
+      "firstCommit": "2025-12-14T18:55:03Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 4"
+    },
+    {
+      "name": "cbetl",
+      "description": "",
+      "language": "Python",
+      "commits": 26,
+      "firstCommit": "2025-12-15T23:30:50Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 4"
+    },
+    {
+      "name": "cbai",
+      "description": "",
+      "language": "Python",
+      "commits": 108,
+      "firstCommit": "2025-12-15T23:30:50Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 4"
+    },
+    {
+      "name": "cbmodels",
+      "description": "",
+      "language": "Python",
+      "commits": 279,
+      "firstCommit": "2025-12-17T05:45:49Z",
+      "lastCommit": "2026-04-23T02:49:13Z",
+      "phase": "Phase 5"
+    },
+    {
+      "name": "cbradio",
+      "description": "",
+      "language": "Python",
+      "commits": 519,
+      "firstCommit": "2025-12-19T06:37:50Z",
+      "lastCommit": "2026-04-23T02:10:44Z",
+      "phase": "Phase 5"
+    },
+    {
+      "name": "RCI-Frontend",
+      "description": "Internal tool for managing political radio advertising rates across 1,900+ radio stations with advanced filtering, QA workflows, and rate management capabilities \u00b7 Built with Manus",
+      "language": "TypeScript",
+      "commits": 478,
+      "firstCommit": "2025-12-20T17:38:55Z",
+      "lastCommit": "2026-02-22T01:51:13Z",
+      "phase": "Phase 10"
+    },
+    {
+      "name": "cbsurveys",
+      "description": "",
+      "language": "Python",
+      "commits": 16,
+      "firstCommit": "2025-12-21T06:06:49Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 5"
+    },
+    {
+      "name": "cbinfra",
+      "description": "",
+      "language": "Python",
+      "commits": 215,
+      "firstCommit": "2025-12-21T21:41:51Z",
+      "lastCommit": "2026-04-20T14:53:25Z",
+      "phase": "Phase 5"
+    },
+    {
+      "name": "cbfiles",
+      "description": "The cbfiles repository appears to be a Python project that provides various features for image and video processing, including vision inference, search, and media asset management. Recent commits have focused on improving performance, adding new features such as HEIC support, and enhancing compatibility with different platforms. The repository has also undergone domain migrations and refactorings.",
+      "language": "Python",
+      "commits": 66,
+      "firstCommit": "2025-12-22T17:44:17Z",
+      "lastCommit": "2026-04-22T02:52:47Z",
+      "phase": "Phase 5"
+    },
+    {
+      "name": "cbdocs",
+      "description": "",
+      "language": "Shell",
+      "commits": 156,
+      "firstCommit": "2025-12-24T20:06:09Z",
+      "lastCommit": "2026-04-23T08:00:19Z",
+      "phase": "Phase 5"
+    },
+    {
+      "name": "cbintel",
+      "description": "",
+      "language": "Python",
+      "commits": 511,
+      "firstCommit": "2025-12-31T00:33:04Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 6"
+    },
+    {
+      "name": "cbproject",
+      "description": "cbproject repository with ongoing development and maintenance",
+      "language": "TypeScript",
+      "commits": 120,
+      "firstCommit": "2025-12-31T22:45:20Z",
+      "lastCommit": "2026-04-23T07:00:26Z",
+      "phase": "Phase 6"
+    },
+    {
+      "name": "cbauth",
+      "description": "",
+      "language": "Python",
+      "commits": 146,
+      "firstCommit": "2026-01-02T03:19:11Z",
+      "lastCommit": "2026-04-22T21:37:35Z",
+      "phase": "Phase 6"
+    },
+    {
+      "name": "cbos",
+      "description": "The cbos repository appears to be a Python project that has undergone significant development and maintenance over several months, with recent commits focusing on improving code quality, adding new features, and updating dependencies. The repository has seen multiple major releases (v0.3.1, v0.4.0, v0.5.0) and several minor updates, indicating a steady pace of development and refinement. Overall, the project seems to be centered around building a mesh-based system with various features and tools.",
+      "language": "Python",
+      "commits": 50,
+      "firstCommit": "2026-01-02T04:53:04Z",
+      "lastCommit": "2026-03-14T20:21:06Z",
+      "phase": "Phase 6"
+    },
+    {
+      "name": "cbmesh",
+      "description": "",
+      "language": "Python",
+      "commits": 67,
+      "firstCommit": "2026-01-09T17:03:41Z",
+      "lastCommit": "2026-04-21T18:35:36Z",
+      "phase": "Phase 5"
+    },
+    {
+      "name": "cbmaintain",
+      "description": "",
+      "language": "Shell",
+      "commits": 12,
+      "firstCommit": "2026-01-14T21:39:09Z",
+      "lastCommit": "2026-04-11T04:23:51Z",
+      "phase": "Phase 6"
+    },
+    {
+      "name": "cbtest",
+      "description": "Test project for bootstrap API",
+      "language": "Python",
+      "commits": 11,
+      "firstCommit": "2026-01-15T03:08:56Z",
+      "lastCommit": "2026-03-06T13:49:27Z",
+      "phase": "Phase 6"
+    },
+    {
+      "name": "cbsms",
+      "description": "SMS Gateway API for Ejoin SMS/MMS devices",
+      "language": "Python",
+      "commits": 31,
+      "firstCommit": "2026-01-16T21:25:04Z",
+      "lastCommit": "2026-04-11T18:01:36Z",
+      "phase": "Phase 6"
+    },
+    {
+      "name": "cbtor",
+      "description": "WireGuard-to-TOR tunnel infrastructure for distributed TOR routing",
+      "language": "Python",
+      "commits": 37,
+      "firstCommit": "2026-01-18T01:04:19Z",
+      "lastCommit": "2026-04-17T03:16:41Z",
+      "phase": "Phase 7"
+    },
+    {
+      "name": "cbmobile",
+      "description": "",
+      "language": "TypeScript",
+      "commits": 219,
+      "firstCommit": "2026-01-18T04:44:02Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 7"
+    },
+    {
+      "name": "cbuserguide",
+      "description": "Automated user guide generator for Campaign Brain web applications",
+      "language": "Python",
+      "commits": 30,
+      "firstCommit": "2026-01-20T23:28:03Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 7"
+    },
+    {
+      "name": "cbemail",
+      "description": "Headless email client API for IMAP/SMTP operations",
+      "language": "Python",
+      "commits": 20,
+      "firstCommit": "2026-01-22T18:50:39Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 7"
+    },
+    {
+      "name": "cbindex",
+      "description": "FastAPI wrapper for PageIndex - vectorless RAG document indexing with workspace management",
+      "language": "Python",
+      "commits": 26,
+      "firstCommit": "2026-01-23T01:44:28Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 7"
+    },
+    {
+      "name": "cbtiles",
+      "description": "CBTiles - CartoDB tile caching proxy with look-ahead prefetching",
+      "language": "Python",
+      "commits": 30,
+      "firstCommit": "2026-01-25T18:46:34Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 7"
+    },
+    {
+      "name": "cbgeo",
+      "description": "Campaign Brain Geocoding Service (Nominatim-based)",
+      "language": "Python",
+      "commits": 27,
+      "firstCommit": "2026-01-26T00:04:25Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 8"
+    },
+    {
+      "name": "cbmaps",
+      "description": "",
+      "language": "Python",
+      "commits": 22,
+      "firstCommit": "2026-01-26T16:39:27Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 8"
+    },
+    {
+      "name": "cbcli",
+      "description": "Unified CLI for Nominate AI services (AWS CLI style)",
+      "language": "Python",
+      "commits": 27,
+      "firstCommit": "2026-01-26T17:26:41Z",
+      "lastCommit": "2026-04-11T06:12:21Z",
+      "phase": "Phase 8"
+    },
+    {
+      "name": "cbcdn",
+      "description": "Campaign Brain self-hosted CDN assets",
+      "language": "JavaScript",
+      "commits": 14,
+      "firstCommit": "2026-01-28T19:25:59Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 8"
+    },
+    {
+      "name": "cbcore",
+      "description": "Core library for Campaign Brain FastAPI services",
+      "language": "Python",
+      "commits": 34,
+      "firstCommit": "2026-01-29T18:27:34Z",
+      "lastCommit": "2026-03-15T01:50:54Z",
+      "phase": "Phase 8"
+    },
+    {
+      "name": "cblinks",
+      "description": "FastAPI URL shortener service",
+      "language": "Python",
+      "commits": 24,
+      "firstCommit": "2026-01-31T01:15:27Z",
+      "lastCommit": "2026-04-22T21:37:27Z",
+      "phase": "Phase 8"
+    },
+    {
+      "name": "cbscout",
+      "description": "CBScout repository: agent memory and knowledge management service",
+      "language": "Python",
+      "commits": 33,
+      "firstCommit": "2026-01-31T02:31:31Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 8"
+    },
+    {
+      "name": "cboverseer",
+      "description": "Campaign Brain System Manager - Distributed monitoring and self-healing infrastructure",
+      "language": "Python",
+      "commits": 81,
+      "firstCommit": "2026-02-02T00:35:45Z",
+      "lastCommit": "2026-04-17T03:16:39Z",
+      "phase": "Phase 9"
+    },
+    {
+      "name": "vip-frontend",
+      "description": "The vip-frontend repository is a TypeScript application built with Manus, providing real-time financial dashboards, actionable alerts, and role-based views for Virgin Islands hospitality, media, and tourism businesses.",
+      "language": "TypeScript",
+      "commits": 40,
+      "firstCommit": "2026-02-02T23:33:40Z",
+      "lastCommit": "2026-02-19T03:51:56Z",
+      "phase": "Phase 10"
+    },
+    {
+      "name": "cbwebhook",
+      "description": "The cbwebhook repository is a Python-based webhook ingestion service.",
+      "language": "Python",
+      "commits": 27,
+      "firstCommit": "2026-02-06T00:40:11Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 9"
+    },
+    {
+      "name": "cbissues",
+      "description": "The cbissues repository is an issue tracking dashboard built with Python, aiming to provide a centralized system for managing and tracking issues. The project has undergone various refactorings, fixes, and feature additions, including integration with MCP (Campaign Brain) and sysadmin operations handbook. Recent changes have focused on improving the user experience, security, and functionality of the application.",
+      "language": "Python",
+      "commits": 20,
+      "firstCommit": "2026-02-06T00:40:12Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 9"
+    },
+    {
+      "name": "cbpulse",
+      "description": "Campaign Brain Pulse - Real-time system health and activity monitoring dashboard",
+      "language": "Python",
+      "commits": 387,
+      "firstCommit": "2026-02-06T17:48:36Z",
+      "lastCommit": "2026-04-21T22:02:27Z",
+      "phase": "Phase 9"
+    },
+    {
+      "name": "cbvpn",
+      "description": "VPN Cluster Management API - Geographic routing through OpenWRT workers",
+      "language": "Python",
+      "commits": 23,
+      "firstCommit": "2026-02-07T03:01:44Z",
+      "lastCommit": "2026-04-17T03:16:42Z",
+      "phase": "Phase 9"
+    },
+    {
+      "name": "cbpayments",
+      "description": "The cbpayments repository is an online payment system with recent commits focused on improving documentation, adding new features, and enhancing user experience.",
+      "language": "Python",
+      "commits": 87,
+      "firstCommit": "2026-02-07T15:19:19Z",
+      "lastCommit": "2026-04-19T23:14:01Z",
+      "phase": "Phase 9"
+    },
+    {
+      "name": "cbsocial",
+      "description": "API access layer for social media accounts",
+      "language": "Python",
+      "commits": 24,
+      "firstCommit": "2026-02-10T18:14:28Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 9"
+    },
+    {
+      "name": "cbmcp",
+      "description": "MCP server \u2014 Campaign Brain service catalog for LLM agents",
+      "language": "Python",
+      "commits": 93,
+      "firstCommit": "2026-02-15T03:31:21Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 10"
+    },
+    {
+      "name": "cbnetwork",
+      "description": "The cbnetwork repository is a Python-based CLI toolkit for managing OpenWRT VPN/Tor network clusters.",
+      "language": "Python",
+      "commits": 62,
+      "firstCommit": "2026-02-17T05:31:05Z",
+      "lastCommit": "2026-04-17T03:16:38Z",
+      "phase": "Phase 10"
+    },
+    {
+      "name": "cbexecutive",
+      "description": "CB Executive Summaries",
+      "language": "Unknown",
+      "commits": 64,
+      "firstCommit": "2026-02-20T15:15:58Z",
+      "lastCommit": "2026-04-23T09:00:19Z",
+      "phase": "Phase 10"
+    },
+    {
+      "name": "cbfront",
+      "description": "Campaign Brain Front App email integration service",
+      "language": "Python",
+      "commits": 55,
+      "firstCommit": "2026-02-21T19:35:45Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 10"
+    },
+    {
+      "name": "cbradio-ui",
+      "description": "CBRadio UI \u2014 Rural AM/FM rate console and media buying platform",
+      "language": "TypeScript",
+      "commits": 445,
+      "firstCommit": "2026-02-22T03:58:16Z",
+      "lastCommit": "2026-04-23T04:20:43Z",
+      "phase": "Phase 11"
+    },
+    {
+      "name": "cbpulse-ui",
+      "description": "CBPulse UI \u2014 VIP business intelligence and system monitoring dashboard",
+      "language": "TypeScript",
+      "commits": 62,
+      "firstCommit": "2026-02-22T05:09:51Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 10"
+    },
+    {
+      "name": "cbrouter",
+      "description": "OpenWRT router management via MCP and FastAPI",
+      "language": "Python",
+      "commits": 15,
+      "firstCommit": "2026-02-22T18:16:48Z",
+      "lastCommit": "2026-04-17T03:16:40Z",
+      "phase": "Phase 11"
+    },
+    {
+      "name": "cbradio-web",
+      "description": "Campaign Brain website tools \u2013 site copier, refactoring, and creation",
+      "language": "TypeScript",
+      "commits": 49,
+      "firstCommit": "2026-02-23T03:34:14Z",
+      "lastCommit": "2026-04-21T23:03:34Z",
+      "phase": "Phase 11"
+    },
+    {
+      "name": "cbtemplates",
+      "description": "Starter project templates for Campaign Brain services",
+      "language": "TypeScript",
+      "commits": 16,
+      "firstCommit": "2026-02-23T15:19:26Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 11"
+    },
+    {
+      "name": "cbcron",
+      "description": "Configurable Scheduled Task Engine",
+      "language": "Python",
+      "commits": 42,
+      "firstCommit": "2026-02-26T16:28:21Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 11"
+    },
+    {
+      "name": "cblogs",
+      "description": "",
+      "language": "Python",
+      "commits": 26,
+      "firstCommit": "2026-02-27T05:20:59Z",
+      "lastCommit": "2026-04-19T20:49:21Z",
+      "phase": "Phase 11"
+    },
+    {
+      "name": "cbtts",
+      "description": "Campaign Brain TTS service wrapping VibeVoice-Realtime-0.5B",
+      "language": "Python",
+      "commits": 20,
+      "firstCommit": "2026-02-28T05:21:48Z",
+      "lastCommit": "2026-04-17T03:16:42Z",
+      "phase": "Phase 12"
+    },
+    {
+      "name": "cbdc",
+      "description": "Campaign Brain data center infrastructure \u2014 systemd units, SOPS scripts, health daemon, certbot hooks",
+      "language": "Shell",
+      "commits": 113,
+      "firstCommit": "2026-03-01T15:16:40Z",
+      "lastCommit": "2026-04-21T21:41:55Z",
+      "phase": "Phase 12"
+    },
+    {
+      "name": "cbqa",
+      "description": "Commits: feat: initial CBQA CLI with full DC1 regression results",
+      "language": "Python",
+      "commits": 1,
+      "firstCommit": "2026-03-03T16:00:09Z",
+      "lastCommit": "2026-03-03T16:00:09Z",
+      "phase": "Phase 12"
+    },
+    {
+      "name": "cbairtable",
+      "description": "Multi-tenant Airtable API wrapper with DuckDB sync",
+      "language": "Python",
+      "commits": 39,
+      "firstCommit": "2026-03-03T23:16:57Z",
+      "lastCommit": "2026-04-23T02:56:40Z",
+      "phase": "Phase 12"
+    },
+    {
+      "name": "cbiterable",
+      "description": "Multi-tenant Iterable API wrapper with DuckDB sync",
+      "language": "Python",
+      "commits": 20,
+      "firstCommit": "2026-03-03T23:21:49Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 12"
+    },
+    {
+      "name": "cbhandbook",
+      "description": "User guides and ops handbooks for Campaign Brain services",
+      "language": "Unknown",
+      "commits": 3,
+      "firstCommit": "2026-03-12T18:58:49Z",
+      "lastCommit": "2026-03-12T21:07:54Z",
+      "phase": "Phase 12"
+    },
+    {
+      "name": "infrastructure",
+      "description": "Campaign Brain infrastructure monorepo \u2014 consolidates infra services as submodules",
+      "language": "Python",
+      "commits": 160,
+      "firstCommit": "2026-03-12T22:38:20Z",
+      "lastCommit": "2026-04-22T14:53:00Z",
+      "phase": "Phase 12"
+    },
+    {
+      "name": "cbea",
+      "description": "AI-powered task management and scheduling tool for Campaign Brain",
+      "language": "Python",
+      "commits": 57,
+      "firstCommit": "2026-03-17T05:22:49Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 13"
+    },
+    {
+      "name": "cbinfrasays",
+      "description": "Infra Says \u2014 Campaign Brain Infrastructure Standards & Updates (MDX)",
+      "language": "MDX",
+      "commits": 11,
+      "firstCommit": "2026-03-18T05:40:33Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 13"
+    },
+    {
+      "name": "cbops",
+      "description": "CB Ops \u2014 Operations Dashboard (errors, issues, code scan, platform state)",
+      "language": "MDX",
+      "commits": 5,
+      "firstCommit": "2026-03-19T21:15:01Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 13"
+    },
+    {
+      "name": "cbesig",
+      "description": "E-Signature Service (BoldSign integration)",
+      "language": "Python",
+      "commits": 36,
+      "firstCommit": "2026-03-26T03:50:55Z",
+      "lastCommit": "2026-04-19T17:15:50Z",
+      "phase": "Phase 13"
+    },
+    {
+      "name": "cbloom",
+      "description": "Cbloom is a TypeScript-based campaign content and narrative engine focusing on responsive tile layouts and data integration. Recent commits highlight improvements to the core loom functionality, including enhanced responsive grid design, new loom types, data access, and API development. The repository emphasizes a focus on building a robust and flexible campaign content pipeline.",
+      "language": "HTML",
+      "commits": 661,
+      "firstCommit": "2026-03-27T14:52:52Z",
+      "lastCommit": "2026-04-23T04:11:21Z",
+      "phase": "Phase 13"
+    },
+    {
+      "name": "automation-spotlight",
+      "description": "The `automation-spotlight` repository is a monthly internal newsletter focused on automating tasks with CSS. Recent commits include new features for building, managing, and displaying automation workflows, including templates, stylesheets, and content. Key milestones identified are the addition of the HR document automation and the scaffolding of the project structure.",
+      "language": "CSS",
+      "commits": 9,
+      "firstCommit": "2026-03-27T19:26:14Z",
+      "lastCommit": "2026-03-27T19:32:31Z",
+      "phase": "Phase 13"
+    },
+    {
+      "name": "cbingest",
+      "description": "This GitHub repository, developed by cbingest, is a data ingestion pipeline service focused on automating the extraction of text from Claude JSON responses. Recent commits highlight improvements in extraction, data persistence, UI enhancements, and documentation. Key milestones include implementing full document extraction, adding documentation, and establishing a maintenance pass for the API.",
+      "language": "Python",
+      "commits": 33,
+      "firstCommit": "2026-03-28T18:25:40Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 13"
+    },
+    {
+      "name": "mission-control",
+      "description": "CJ's personal operating layer - morning briefing, decision queue, priority intelligence",
+      "language": "Unknown",
+      "commits": 1,
+      "firstCommit": "2026-04-02T20:17:27Z",
+      "lastCommit": "2026-04-02T20:17:27Z",
+      "phase": "Phase 14"
+    },
+    {
+      "name": "cbskills",
+      "description": "The cbskills repository is a centralized resource for managing Claude skills, particularly focusing on supply chain security and incorporating new features like the Cowork/Claude Desktop install and Mission Control v1. It\u2019s a rapidly evolving project with recent commits addressing security, plugin development, and marketplace enhancements.",
+      "language": "Shell",
+      "commits": 11,
+      "firstCommit": "2026-04-02T20:30:49Z",
+      "lastCommit": "2026-04-19T04:14:20Z",
+      "phase": "Phase 14"
+    },
+    {
+      "name": "loomjs",
+      "description": "Loom UI Toolkit \u2014 shared libraries and migration docs for the Campaign Brain application desktop",
+      "language": "Unknown",
+      "commits": 5,
+      "firstCommit": "2026-04-03T01:57:45Z",
+      "lastCommit": "2026-04-19T05:21:44Z",
+      "phase": "Phase 14"
+    },
+    {
+      "name": "cbworkspaces",
+      "description": "Workspaces \u2014 multi-tenant workspace management API (workspaces.campaignbrain.dev)",
+      "language": "Python",
+      "commits": 4,
+      "firstCommit": "2026-04-16T14:48:39Z",
+      "lastCommit": "2026-04-19T15:36:29Z",
+      "phase": "Phase 14"
+    },
+    {
+      "name": "cbquickbooks",
+      "description": "QuickBooks integration API (quickbooks.campaignbrain.dev)",
+      "language": "Python",
+      "commits": 43,
+      "firstCommit": "2026-04-16T20:37:03Z",
+      "lastCommit": "2026-04-21T21:17:32Z",
+      "phase": "Phase 14"
+    },
+    {
+      "name": "pulse-hr-kit",
+      "description": "Canonical HR domain kit for Pulse: data, docs, tests, reference implementation",
+      "language": "Python",
+      "commits": 3,
+      "firstCommit": "2026-04-17T15:35:25Z",
+      "lastCommit": "2026-04-17T16:06:40Z",
+      "phase": "Phase 14"
+    },
+    {
+      "name": "cbbanking",
+      "description": "Campaign Brain banking integration service \u2014 SFTP client for Huntington (OpenText hosted) and friends",
+      "language": "Python",
+      "commits": 14,
+      "firstCommit": "2026-04-21T17:54:44Z",
+      "lastCommit": "2026-04-21T22:00:39Z",
+      "phase": "Phase 14"
+    }
+  ]
+}

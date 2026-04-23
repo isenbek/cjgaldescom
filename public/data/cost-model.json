@@ -1,0 +1,637 @@
+{
+  "generated": "2026-04-23T16:09:46.236810",
+  "scope": "Campaign Brain Last 3 Months",
+  "timespan": {
+    "start": "2025-12-01",
+    "end": "2026-03-26",
+    "days": 117,
+    "activeDays": 14
+  },
+  "actual": {
+    "teamSize": 1,
+    "sessions": 30,
+    "messages": 88614,
+    "toolCalls": 49258,
+    "commits": 11510,
+    "repos": 70,
+    "projects": 17,
+    "operatorCost": 60000,
+    "aiCost": 800,
+    "totalCost": 60800,
+    "domains": [
+      {
+        "name": "Backend",
+        "score": 88
+      },
+      {
+        "name": "AI / ML",
+        "score": 68
+      },
+      {
+        "name": "Systems",
+        "score": 61
+      },
+      {
+        "name": "Frontend",
+        "score": 56
+      },
+      {
+        "name": "Security",
+        "score": 56
+      },
+      {
+        "name": "Data Engineering",
+        "score": 46
+      },
+      {
+        "name": "IoT / Edge",
+        "score": 41
+      },
+      {
+        "name": "DevOps",
+        "score": 39
+      }
+    ],
+    "skills": [
+      {
+        "name": "Go",
+        "count": 3566
+      },
+      {
+        "name": "Git",
+        "count": 1426
+      },
+      {
+        "name": "JSON",
+        "count": 1143
+      },
+      {
+        "name": "Nginx",
+        "count": 1023
+      },
+      {
+        "name": "HTML",
+        "count": 745
+      },
+      {
+        "name": "Python",
+        "count": 654
+      },
+      {
+        "name": "systemd",
+        "count": 567
+      },
+      {
+        "name": "DuckDB",
+        "count": 551
+      },
+      {
+        "name": "JWT",
+        "count": 376
+      },
+      {
+        "name": "CSS",
+        "count": 349
+      },
+      {
+        "name": "OAuth",
+        "count": 293
+      },
+      {
+        "name": "SPI",
+        "count": 281
+      },
+      {
+        "name": "FastAPI",
+        "count": 280
+      },
+      {
+        "name": "Bash",
+        "count": 259
+      },
+      {
+        "name": "SSH",
+        "count": 202
+      },
+      {
+        "name": "Ollama",
+        "count": 185
+      },
+      {
+        "name": "Pydantic",
+        "count": 179
+      },
+      {
+        "name": "YAML",
+        "count": 157
+      },
+      {
+        "name": "WireGuard",
+        "count": 153
+      },
+      {
+        "name": "Markdown",
+        "count": 151
+      },
+      {
+        "name": "WebSocket",
+        "count": 144
+      },
+      {
+        "name": "Pytest",
+        "count": 141
+      },
+      {
+        "name": "Redis",
+        "count": 138
+      },
+      {
+        "name": "TOML",
+        "count": 137
+      },
+      {
+        "name": "AWS",
+        "count": 137
+      },
+      {
+        "name": "SQLite",
+        "count": 136
+      },
+      {
+        "name": "Snowflake",
+        "count": 113
+      },
+      {
+        "name": "CSV",
+        "count": 111
+      },
+      {
+        "name": "React",
+        "count": 109
+      },
+      {
+        "name": "Rust",
+        "count": 104
+      }
+    ],
+    "topProjects": [
+      {
+        "name": "cbloom",
+        "sessions": 2,
+        "messages": 20428
+      },
+      {
+        "name": "cbradio",
+        "sessions": 3,
+        "messages": 12793
+      },
+      {
+        "name": "cbmodels",
+        "sessions": 2,
+        "messages": 9029
+      },
+      {
+        "name": "cbauth",
+        "sessions": 3,
+        "messages": 8827
+      },
+      {
+        "name": "cbpulse",
+        "sessions": 3,
+        "messages": 7337
+      },
+      {
+        "name": "cbintel",
+        "sessions": 2,
+        "messages": 5802
+      },
+      {
+        "name": "cbdc",
+        "sessions": 2,
+        "messages": 5286
+      },
+      {
+        "name": "cbmcp",
+        "sessions": 2,
+        "messages": 3070
+      },
+      {
+        "name": "cbfront",
+        "sessions": 2,
+        "messages": 2157
+      },
+      {
+        "name": "cbtenant",
+        "sessions": 1,
+        "messages": 2084
+      },
+      {
+        "name": "cbmesh",
+        "sessions": 1,
+        "messages": 1978
+      },
+      {
+        "name": "cbapp",
+        "sessions": 1,
+        "messages": 1856
+      },
+      {
+        "name": "cbai",
+        "sessions": 1,
+        "messages": 1832
+      },
+      {
+        "name": "cbingest",
+        "sessions": 1,
+        "messages": 1823
+      },
+      {
+        "name": "cbesig",
+        "sessions": 2,
+        "messages": 1617
+      },
+      {
+        "name": "cbquickbooks",
+        "sessions": 1,
+        "messages": 1416
+      },
+      {
+        "name": "cbcron",
+        "sessions": 1,
+        "messages": 1279
+      }
+    ]
+  },
+  "legacy": {
+    "roles": [
+      {
+        "title": "Full-Stack Developer",
+        "count": 2,
+        "annualSalary": 120000,
+        "loadedCost": 168000
+      },
+      {
+        "title": "Data Engineer",
+        "count": 2,
+        "annualSalary": 135000,
+        "loadedCost": 189000
+      },
+      {
+        "title": "DevOps Engineer",
+        "count": 1,
+        "annualSalary": 140000,
+        "loadedCost": 196000
+      },
+      {
+        "title": "Frontend Developer",
+        "count": 1,
+        "annualSalary": 115000,
+        "loadedCost": 161000
+      },
+      {
+        "title": "ML/AI Engineer",
+        "count": 1,
+        "annualSalary": 155000,
+        "loadedCost": 217000
+      },
+      {
+        "title": "QA Engineer",
+        "count": 1,
+        "annualSalary": 95000,
+        "loadedCost": 133000
+      },
+      {
+        "title": "Project Manager",
+        "count": 1,
+        "annualSalary": 145000,
+        "loadedCost": 203000
+      },
+      {
+        "title": "Biz/Workflow SME + UI Builder",
+        "count": 1,
+        "annualSalary": 130000,
+        "loadedCost": 182000,
+        "halfTime": true
+      }
+    ],
+    "teamSize": 9.5,
+    "estimatedMonths": {
+      "low": 6,
+      "high": 12
+    },
+    "personMonths": {
+      "low": 57.0,
+      "high": 114.0
+    },
+    "costPerPersonMonth": 15000,
+    "totalCost": {
+      "low": 855000.0,
+      "high": 1710000.0
+    },
+    "overheadMultiplier": 1.4
+  },
+  "comparison": {
+    "costSavingsPercent": 95.3,
+    "velocityMultiplier": 122.1,
+    "timeCompression": "9 months -> 14 days"
+  },
+  "industryBenchmarks": {
+    "locPerDevPerDay": {
+      "low": 50,
+      "high": 100
+    },
+    "codingTimePercent": 35,
+    "meetingTimePercent": 20,
+    "codeReviewPercent": 12,
+    "aiProductivityMultiplier": {
+      "conservative": 1.5,
+      "aggressive": 5.0
+    },
+    "studies": [
+      {
+        "source": "GitHub/Microsoft 2022",
+        "finding": "55% faster task completion"
+      },
+      {
+        "source": "McKinsey 2023",
+        "finding": "20-45% productivity improvement"
+      },
+      {
+        "source": "Google 2024",
+        "finding": "25%+ of new code AI-generated"
+      },
+      {
+        "source": "BCG/Harvard 2023",
+        "finding": "40% higher quality output"
+      },
+      {
+        "source": "Deloitte 2024",
+        "finding": "25-35% project cost savings"
+      }
+    ]
+  },
+  "timeSeries": [
+    {
+      "week": "2025-W49",
+      "weekStart": "2025-12-01",
+      "commits": 84,
+      "cumulativeCommits": 84,
+      "messages": 0,
+      "sessions": 0,
+      "toolCalls": 0,
+      "issuesOpened": 27,
+      "issuesClosed": 10,
+      "cumulativeIssuesOpened": 27,
+      "cumulativeIssuesClosed": 10,
+      "cumulativeCostActual": 3576,
+      "cumulativeCostLegacy": 32910
+    },
+    {
+      "week": "2025-W50",
+      "weekStart": "2025-12-08",
+      "commits": 97,
+      "cumulativeCommits": 181,
+      "messages": 0,
+      "sessions": 0,
+      "toolCalls": 0,
+      "issuesOpened": 52,
+      "issuesClosed": 36,
+      "cumulativeIssuesOpened": 79,
+      "cumulativeIssuesClosed": 46,
+      "cumulativeCostActual": 7153,
+      "cumulativeCostLegacy": 65820
+    },
+    {
+      "week": "2025-W51",
+      "weekStart": "2025-12-15",
+      "commits": 244,
+      "cumulativeCommits": 425,
+      "messages": 0,
+      "sessions": 0,
+      "toolCalls": 0,
+      "issuesOpened": 21,
+      "issuesClosed": 14,
+      "cumulativeIssuesOpened": 100,
+      "cumulativeIssuesClosed": 60,
+      "cumulativeCostActual": 10729,
+      "cumulativeCostLegacy": 98730
+    },
+    {
+      "week": "2025-W52",
+      "weekStart": "2025-12-22",
+      "commits": 187,
+      "cumulativeCommits": 612,
+      "messages": 0,
+      "sessions": 0,
+      "toolCalls": 0,
+      "issuesOpened": 18,
+      "issuesClosed": 8,
+      "cumulativeIssuesOpened": 118,
+      "cumulativeIssuesClosed": 68,
+      "cumulativeCostActual": 14306,
+      "cumulativeCostLegacy": 131640
+    },
+    {
+      "week": "2026-W01",
+      "weekStart": "2025-12-29",
+      "commits": 159,
+      "cumulativeCommits": 771,
+      "messages": 0,
+      "sessions": 0,
+      "toolCalls": 0,
+      "issuesOpened": 13,
+      "issuesClosed": 4,
+      "cumulativeIssuesOpened": 131,
+      "cumulativeIssuesClosed": 72,
+      "cumulativeCostActual": 17882,
+      "cumulativeCostLegacy": 164550
+    },
+    {
+      "week": "2026-W02",
+      "weekStart": "2026-01-05",
+      "commits": 285,
+      "cumulativeCommits": 1056,
+      "messages": 0,
+      "sessions": 0,
+      "toolCalls": 0,
+      "issuesOpened": 41,
+      "issuesClosed": 32,
+      "cumulativeIssuesOpened": 172,
+      "cumulativeIssuesClosed": 104,
+      "cumulativeCostActual": 21459,
+      "cumulativeCostLegacy": 197460
+    },
+    {
+      "week": "2026-W03",
+      "weekStart": "2026-01-12",
+      "commits": 292,
+      "cumulativeCommits": 1348,
+      "messages": 0,
+      "sessions": 0,
+      "toolCalls": 0,
+      "issuesOpened": 13,
+      "issuesClosed": 11,
+      "cumulativeIssuesOpened": 185,
+      "cumulativeIssuesClosed": 115,
+      "cumulativeCostActual": 25035,
+      "cumulativeCostLegacy": 230370
+    },
+    {
+      "week": "2026-W04",
+      "weekStart": "2026-01-19",
+      "commits": 286,
+      "cumulativeCommits": 1634,
+      "messages": 0,
+      "sessions": 0,
+      "toolCalls": 0,
+      "issuesOpened": 20,
+      "issuesClosed": 3,
+      "cumulativeIssuesOpened": 205,
+      "cumulativeIssuesClosed": 118,
+      "cumulativeCostActual": 28612,
+      "cumulativeCostLegacy": 263279
+    },
+    {
+      "week": "2026-W05",
+      "weekStart": "2026-01-26",
+      "commits": 477,
+      "cumulativeCommits": 2111,
+      "messages": 0,
+      "sessions": 0,
+      "toolCalls": 0,
+      "issuesOpened": 75,
+      "issuesClosed": 35,
+      "cumulativeIssuesOpened": 280,
+      "cumulativeIssuesClosed": 153,
+      "cumulativeCostActual": 32188,
+      "cumulativeCostLegacy": 296189
+    },
+    {
+      "week": "2026-W06",
+      "weekStart": "2026-02-02",
+      "commits": 459,
+      "cumulativeCommits": 2570,
+      "messages": 0,
+      "sessions": 0,
+      "toolCalls": 0,
+      "issuesOpened": 81,
+      "issuesClosed": 67,
+      "cumulativeIssuesOpened": 361,
+      "cumulativeIssuesClosed": 220,
+      "cumulativeCostActual": 35765,
+      "cumulativeCostLegacy": 329099
+    },
+    {
+      "week": "2026-W07",
+      "weekStart": "2026-02-09",
+      "commits": 404,
+      "cumulativeCommits": 2974,
+      "messages": 0,
+      "sessions": 0,
+      "toolCalls": 0,
+      "issuesOpened": 83,
+      "issuesClosed": 41,
+      "cumulativeIssuesOpened": 444,
+      "cumulativeIssuesClosed": 261,
+      "cumulativeCostActual": 39341,
+      "cumulativeCostLegacy": 362009
+    },
+    {
+      "week": "2026-W08",
+      "weekStart": "2026-02-16",
+      "commits": 483,
+      "cumulativeCommits": 3457,
+      "messages": 0,
+      "sessions": 0,
+      "toolCalls": 0,
+      "issuesOpened": 75,
+      "issuesClosed": 43,
+      "cumulativeIssuesOpened": 519,
+      "cumulativeIssuesClosed": 304,
+      "cumulativeCostActual": 42918,
+      "cumulativeCostLegacy": 394919
+    },
+    {
+      "week": "2026-W09",
+      "weekStart": "2026-02-23",
+      "commits": 464,
+      "cumulativeCommits": 3921,
+      "messages": 7287,
+      "sessions": 2,
+      "toolCalls": 2634,
+      "issuesOpened": 91,
+      "issuesClosed": 74,
+      "cumulativeIssuesOpened": 610,
+      "cumulativeIssuesClosed": 378,
+      "cumulativeCostActual": 46494,
+      "cumulativeCostLegacy": 427829
+    },
+    {
+      "week": "2026-W10",
+      "weekStart": "2026-03-02",
+      "commits": 375,
+      "cumulativeCommits": 4296,
+      "messages": 17739,
+      "sessions": 8,
+      "toolCalls": 6606,
+      "issuesOpened": 109,
+      "issuesClosed": 62,
+      "cumulativeIssuesOpened": 719,
+      "cumulativeIssuesClosed": 440,
+      "cumulativeCostActual": 50071,
+      "cumulativeCostLegacy": 460739
+    },
+    {
+      "week": "2026-W11",
+      "weekStart": "2026-03-09",
+      "commits": 395,
+      "cumulativeCommits": 4691,
+      "messages": 11903,
+      "sessions": 2,
+      "toolCalls": 4484,
+      "issuesOpened": 171,
+      "issuesClosed": 70,
+      "cumulativeIssuesOpened": 890,
+      "cumulativeIssuesClosed": 510,
+      "cumulativeCostActual": 53647,
+      "cumulativeCostLegacy": 493649
+    },
+    {
+      "week": "2026-W12",
+      "weekStart": "2026-03-16",
+      "commits": 488,
+      "cumulativeCommits": 5179,
+      "messages": 15785,
+      "sessions": 1,
+      "toolCalls": 5547,
+      "issuesOpened": 298,
+      "issuesClosed": 309,
+      "cumulativeIssuesOpened": 1188,
+      "cumulativeIssuesClosed": 819,
+      "cumulativeCostActual": 57224,
+      "cumulativeCostLegacy": 526559
+    },
+    {
+      "week": "2026-W13",
+      "weekStart": "2026-03-23",
+      "commits": 232,
+      "cumulativeCommits": 5411,
+      "messages": 36805,
+      "sessions": 14,
+      "toolCalls": 13395,
+      "issuesOpened": 306,
+      "issuesClosed": 202,
+      "cumulativeIssuesOpened": 1494,
+      "cumulativeIssuesClosed": 1021,
+      "cumulativeCostActual": 60800,
+      "cumulativeCostLegacy": 559469
+    }
+  ],
+  "issues": {
+    "opened": 2113,
+    "closed": 1509,
+    "bugs": 181,
+    "features": 331,
+    "other": 1601
+  }
+}

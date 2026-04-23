@@ -1,0 +1,2140 @@
+{
+  "generated": "2026-04-23T20:09:00.464779+00:00",
+  "stats": {
+    "totalProjects": 86,
+    "totalSessions": 54,
+    "totalMessages": 133368,
+    "activeDays": 28,
+    "streak": 1
+  },
+  "activityFeed": [
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (616 messages)",
+      "description": "1 sessions, 232 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-04-23T23:59:00Z",
+      "metadata": {
+        "messages": 616,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "github",
+      "title": "Activity on Sysforge-AI/sfproject",
+      "description": "Repository sfproject",
+      "projectSlug": "sysforge",
+      "category": "systems",
+      "date": "2026-04-23T07:30:13Z",
+      "metadata": {
+        "repo": "Sysforge-AI/sfproject"
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (1758 messages)",
+      "description": "3 sessions, 592 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-04-21T23:59:00Z",
+      "metadata": {
+        "messages": 1758,
+        "sessions": 3
+      }
+    },
+    {
+      "type": "github",
+      "title": "Activity on isenbek/terrapulse",
+      "description": "Climate intelligence platform \u2014 ingest, normalize, and serve environmental data",
+      "projectSlug": "terrapulse",
+      "category": "systems",
+      "date": "2026-04-21T02:32:40Z",
+      "metadata": {
+        "repo": "isenbek/terrapulse"
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (1527 messages)",
+      "description": "3 sessions, 526 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-04-16T23:59:00Z",
+      "metadata": {
+        "messages": 1527,
+        "sessions": 3
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (216 messages)",
+      "description": "2 sessions, 80 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-04-15T23:59:00Z",
+      "metadata": {
+        "messages": 216,
+        "sessions": 2
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (1438 messages)",
+      "description": "1 sessions, 499 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-04-14T23:59:00Z",
+      "metadata": {
+        "messages": 1438,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (21053 messages)",
+      "description": "6 sessions, 7735 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-04-13T23:59:00Z",
+      "metadata": {
+        "messages": 21053,
+        "sessions": 6
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (439 messages)",
+      "description": "2 sessions, 153 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-04-12T23:59:00Z",
+      "metadata": {
+        "messages": 439,
+        "sessions": 2
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (466 messages)",
+      "description": "1 sessions, 178 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-04-09T23:59:00Z",
+      "metadata": {
+        "messages": 466,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (16076 messages)",
+      "description": "6 sessions, 5873 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-04-08T23:59:00Z",
+      "metadata": {
+        "messages": 16076,
+        "sessions": 6
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (250 messages)",
+      "description": "1 sessions, 88 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-04-02T23:59:00Z",
+      "metadata": {
+        "messages": 250,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (10 messages)",
+      "description": "1 sessions, 3 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-04-01T23:59:00Z",
+      "metadata": {
+        "messages": 10,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (2810 messages)",
+      "description": "1 sessions, 1003 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-03-29T23:59:00Z",
+      "metadata": {
+        "messages": 2810,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (1968 messages)",
+      "description": "2 sessions, 776 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-03-28T23:59:00Z",
+      "metadata": {
+        "messages": 1968,
+        "sessions": 2
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (7731 messages)",
+      "description": "1 sessions, 2822 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-03-27T23:59:00Z",
+      "metadata": {
+        "messages": 7731,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (1608 messages)",
+      "description": "1 sessions, 589 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-03-26T23:59:00Z",
+      "metadata": {
+        "messages": 1608,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (1245 messages)",
+      "description": "1 sessions, 466 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-03-25T23:59:00Z",
+      "metadata": {
+        "messages": 1245,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (21443 messages)",
+      "description": "8 sessions, 7739 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-03-23T23:59:00Z",
+      "metadata": {
+        "messages": 21443,
+        "sessions": 8
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (15785 messages)",
+      "description": "1 sessions, 5547 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-03-16T23:59:00Z",
+      "metadata": {
+        "messages": 15785,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (11100 messages)",
+      "description": "1 sessions, 4192 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-03-13T23:59:00Z",
+      "metadata": {
+        "messages": 11100,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (803 messages)",
+      "description": "1 sessions, 292 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-03-12T23:59:00Z",
+      "metadata": {
+        "messages": 803,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (1983 messages)",
+      "description": "1 sessions, 732 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-03-08T23:59:00Z",
+      "metadata": {
+        "messages": 1983,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (1978 messages)",
+      "description": "1 sessions, 774 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-03-07T23:59:00Z",
+      "metadata": {
+        "messages": 1978,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (5532 messages)",
+      "description": "3 sessions, 2063 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-03-06T23:59:00Z",
+      "metadata": {
+        "messages": 5532,
+        "sessions": 3
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (1021 messages)",
+      "description": "1 sessions, 373 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-03-05T23:59:00Z",
+      "metadata": {
+        "messages": 1021,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (2084 messages)",
+      "description": "1 sessions, 766 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-03-04T23:59:00Z",
+      "metadata": {
+        "messages": 2084,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (5141 messages)",
+      "description": "1 sessions, 1898 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-03-02T23:59:00Z",
+      "metadata": {
+        "messages": 5141,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (1279 messages)",
+      "description": "1 sessions, 471 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-02-28T23:59:00Z",
+      "metadata": {
+        "messages": 1279,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "claude-code",
+      "title": "Claude Code session (6008 messages)",
+      "description": "1 sessions, 2163 tool calls",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-02-25T23:59:00Z",
+      "metadata": {
+        "messages": 6008,
+        "sessions": 1
+      }
+    },
+    {
+      "type": "github",
+      "title": "Activity on tinymachines/esp32",
+      "description": "Repository esp32",
+      "projectSlug": "esp32",
+      "category": "hardware",
+      "date": "2026-02-18T21:12:13Z",
+      "metadata": {
+        "repo": "tinymachines/esp32"
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "Political AI strategy from Michigan roots",
+      "description": "The user, who goes by \"speyecee,\" \"spicy,\" or \"5p1cy\" (Brad), is the tech lead at a Michigan-based strategy organization with decades of data and experience in the space. He works closely with MrGreen (CJ) on business strategy and front-end developme",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-02-14T20:26:17.738734Z",
+      "metadata": {
+        "messages": 19
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "Local AI hub knowledge transfer architecture",
+      "description": "The user is working on an AI hub setup called CBAI (ai.nominate.ai) designed to keep costs down by using local models. Their architecture uses Anthropic and Mistral as \"master\" models that transfer knowledge to \"student\" models - tiny local machines ",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-02-14T19:38:52.071106Z",
+      "metadata": {
+        "messages": 6
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "Conway's Game of Life on ESP32 with live web dashboard",
+      "description": "The user, known as \"Spicy,\" shared an exciting development in their ESP32-C6 embedded systems project. They successfully implemented Conway's Game of Life running on an OLED display connected to the ESP32-C6, with updates every 10 seconds, and set up",
+      "projectSlug": "esp32",
+      "category": "hardware",
+      "date": "2026-02-14T19:04:45.736672Z",
+      "metadata": {
+        "messages": 8
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "Running ESP32 on coin cell batteries",
+      "description": "The user inquired about powering an ESP32 microcontroller using coin cell batteries without WiFi functionality. Claude provided detailed technical guidance on the feasibility and practical considerations for this battery-powered setup. The discussion",
+      "projectSlug": "esp32",
+      "category": "hardware",
+      "date": "2026-02-14T17:31:06.702724Z",
+      "metadata": {
+        "messages": 2
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "Huntington bank API key integration",
+      "description": "The user is charged with integrating their business with Huntington Bank's API but has been unable to get clear guidance from their sales representative on how to obtain API keys. They suspected that Huntington's recent acquisition might be causing d",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-02-13T22:04:18.323956Z",
+      "metadata": {
+        "messages": 2
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "Idiomatic Rust Game of Life implementation",
+      "description": "The user requested help building a fast, idiomatic Rust implementation of Conway's Game of Life. They provided the specific rules for cell evolution and emphasized wanting both performance and clean Rust code. Claude created a complete Rust project w",
+      "projectSlug": "rust",
+      "category": "ai-ml",
+      "date": "2026-02-13T19:21:57.578333Z",
+      "metadata": {
+        "messages": 2
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "Building a form service MVP with FastAPI and FastHTML",
+      "description": "The user requested development of a forms service for their Campaign Brain platform, specifically wanting a TypeForm-like solution built with FastAPI and FastHTML rather than React to save development time. They asked Claude to research TypeForm's fe",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-02-13T01:36:45.279040Z",
+      "metadata": {
+        "messages": 2
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "\ud83d\udcac My boss wants a spec for manag\u2026",
+      "description": "The user worked on developing a comprehensive technical specification for a luxury resort's humanoid robot service system, focusing on Tesla Optimus robots for hospitality operations in a tropical marine environment. They began by creating detailed o",
+      "projectSlug": "os",
+      "category": "ai-ml",
+      "date": "2026-02-11T18:38:07.427610Z",
+      "metadata": {
+        "messages": 11
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "Making technical documentation accessible for screen readers",
+      "description": "The user requested Claude to modify a technical document about OLED displays on ESP32-C6 microcontrollers to make it accessible for screen readers and text-to-speech applications. The original document contained extensive code blocks, ASCII diagrams,",
+      "projectSlug": "cc",
+      "category": "data",
+      "date": "2026-02-10T22:17:18.465102Z",
+      "metadata": {
+        "messages": 2
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "WhatsApp API for message automation",
+      "description": "The user inquired about WhatsApp API options for programmatically capturing messages containing software specifications and requirements they receive via WhatsApp. They specifically wanted to avoid Meta's cloud-based solutions and expressed strong di",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-02-10T15:40:44.493051Z",
+      "metadata": {
+        "messages": 6
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "Using Rust on ESP32 microcontroller",
+      "description": "The user, a Rust newcomer, sought guidance on setting up ESP32-C6 development on a Raspberry Pi 5. They wanted to understand whether the Pi 5 could serve as a development machine for building and flashing ESP32-C6 firmware with Rust. Claude confirmed",
+      "projectSlug": "esp32",
+      "category": "hardware",
+      "date": "2026-02-09T15:36:51.797116Z",
+      "metadata": {
+        "messages": 49
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "Mom's rambling message formatted nicely",
+      "description": "The user requested help reformatting a lengthy, stream-of-consciousness text message from their mother into clean, organized markdown. The original message covered multiple topics including sports commentary, medical appointments, tax preparation, an",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-02-09T04:22:20.608661Z",
+      "metadata": {
+        "messages": 2
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "Rust compilation on Raspberry Pi 5",
+      "description": "The user is exploring Rust development on their Raspberry Pi 5 running 64-bit OS, specifically interested in understanding the complete compilation pipeline from source code through assembly. They work exclusively from the command line using bash she",
+      "projectSlug": "rust",
+      "category": "ai-ml",
+      "date": "2026-02-06T02:21:31.872202Z",
+      "metadata": {
+        "messages": 8
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "React app structure audit and fix skill",
+      "description": "The user is working on a React 19 Progressive Web App (PWA) designed for mobile devices and wanted to create a comprehensive skill for Claude Code to audit and fix React applications for proper structure and idiomatic patterns. The user has extensive",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-02-04T23:19:31.222684Z",
+      "metadata": {
+        "messages": 2
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "Building a ClaudeCode skill for React",
+      "description": "The user is working on a React App (version 19) and expressed interest in building a skill for ClaudeCode to help with their development work. This appears to be the initial stage of exploring how to create a custom skill that would assist with their",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-02-04T23:10:31.517657Z",
+      "metadata": {
+        "messages": 2
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "Command line argument in shell alias",
+      "description": "The user requested help modifying a shell alias to accept command line input. They had created an alias called \"sweep\" that searches for `.env` files and greps for patterns, but were having trouble getting it to accept the `$1` positional parameter. ",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-02-04T21:21:08.208200Z",
+      "metadata": {
+        "messages": 2
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "Rust memory allocation and pointer types",
+      "description": "The user is continuing their systematic learning of Rust programming, specifically focusing on memory allocation strategies and pointer types. They expressed interest in understanding the flexibility of using structs with static versus dynamic alloca",
+      "projectSlug": "rust",
+      "category": "ai-ml",
+      "date": "2026-02-04T16:56:26.833011Z",
+      "metadata": {
+        "messages": 2
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "DSPy framework explanation and code",
+      "description": "The user requested a comprehensive introduction to DSPy, asking specifically for a simple explanation, diagram, and code sample. Claude provided a detailed technical overview of DSPy (Declarative Self-improving Python), a framework from Stanford NLP ",
+      "projectSlug": "dspy",
+      "category": "systems",
+      "date": "2026-02-04T02:42:25.915022Z",
+      "metadata": {
+        "messages": 2
+      }
+    },
+    {
+      "type": "claude-web",
+      "title": "Fast STT/TTS models in Python",
+      "description": "The user inquired about fast, decent Speech-to-Text (STT) and Text-to-Speech (TTS) models available for Python development. Claude provided a comprehensive overview of several options for both categories, focusing on performance and ease of implement",
+      "projectSlug": null,
+      "category": null,
+      "date": "2026-02-04T02:29:20.854177Z",
+      "metadata": {
+        "messages": 2
+      }
+    }
+  ],
+  "projects": [
+    {
+      "slug": "sysforge",
+      "name": "sfproject",
+      "tagline": "Building resilient systems, reliably.",
+      "description": "SFProject is a system designed to enhance stability and scalability through advanced monitoring and automated diagnostics. It focuses on proactive identification and resolution of potential issues within complex infrastructure.\n\nWe leverage [mention key technologies - e.g., Kafka, Kubernetes, Prometheus] to collect and analyze data, enabling early detection of anomalies. Ultimately, SFProject aims to minimize downtime and maximize system uptime.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": true,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-04-23T07:30:13Z",
+      "totalMessages": 0,
+      "sources": {
+        "github": {
+          "repo": "Sysforge-AI/sfproject",
+          "stars": 0,
+          "language": "TypeScript",
+          "lastPush": "2026-04-23"
+        }
+      }
+    },
+    {
+      "slug": "cbloom",
+      "name": "cbloom",
+      "tagline": "",
+      "description": "",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-04-23",
+      "totalMessages": 20186,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 2,
+          "totalMessages": 20186,
+          "lastSession": "2026-04-23"
+        }
+      }
+    },
+    {
+      "slug": "cbradio",
+      "name": "cbradio",
+      "tagline": "",
+      "description": "",
+      "category": "hardware",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-04-23",
+      "totalMessages": 12362,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 3,
+          "totalMessages": 12362,
+          "lastSession": "2026-04-23"
+        }
+      }
+    },
+    {
+      "slug": "cbmodels",
+      "name": "cbmodels",
+      "tagline": "",
+      "description": "",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-04-23",
+      "totalMessages": 8836,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 2,
+          "totalMessages": 8836,
+          "lastSession": "2026-04-23"
+        }
+      }
+    },
+    {
+      "slug": "cbintel",
+      "name": "cbintel",
+      "tagline": "",
+      "description": "",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-04-23",
+      "totalMessages": 5496,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 2,
+          "totalMessages": 5496,
+          "lastSession": "2026-04-23"
+        }
+      }
+    },
+    {
+      "slug": "infra",
+      "name": "infra",
+      "tagline": "",
+      "description": "",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-04-22",
+      "totalMessages": 20206,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 5,
+          "totalMessages": 20206,
+          "lastSession": "2026-04-22"
+        }
+      }
+    },
+    {
+      "slug": "cbauth",
+      "name": "cbauth",
+      "tagline": "",
+      "description": "",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-04-22",
+      "totalMessages": 8827,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 3,
+          "totalMessages": 8827,
+          "lastSession": "2026-04-22"
+        }
+      }
+    },
+    {
+      "slug": "cbtenant",
+      "name": "cbtenant",
+      "tagline": "",
+      "description": "",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-04-22",
+      "totalMessages": 2084,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 1,
+          "totalMessages": 2084,
+          "lastSession": "2026-04-22"
+        }
+      }
+    },
+    {
+      "slug": "bradleyio",
+      "name": "bradleyio",
+      "tagline": "",
+      "description": "",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [
+        "D3.js",
+        "Framer Motion",
+        "Next.js",
+        "Nginx",
+        "Ollama",
+        "Socket.IO",
+        "Tailwind CSS",
+        "TypeScript"
+      ],
+      "lastActivity": "2026-04-22",
+      "totalMessages": 1983,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 1,
+          "totalMessages": 1983,
+          "lastSession": "2026-04-22"
+        }
+      }
+    },
+    {
+      "slug": "terrapulse",
+      "name": "terrapulse",
+      "tagline": "Climate intelligence platform \u2014 ingest, normalize, and serve environmental data",
+      "description": "Climate intelligence platform \u2014 ingest, normalize, and serve environmental data",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": true,
+      "status": "active",
+      "technologies": [
+        "Docker",
+        "DuckDB",
+        "FastAPI",
+        "Git",
+        "Go",
+        "JSON",
+        "PostgreSQL",
+        "Python"
+      ],
+      "lastActivity": "2026-04-21T02:32:40Z",
+      "totalMessages": 16159,
+      "sources": {
+        "github": {
+          "repo": "isenbek/terrapulse",
+          "stars": 0,
+          "language": "HTML",
+          "lastPush": "2026-04-21"
+        },
+        "claudeCode": {
+          "totalSessions": 2,
+          "totalMessages": 16159,
+          "lastSession": "2026-04-22"
+        }
+      }
+    },
+    {
+      "slug": "cbpulse",
+      "name": "cbpulse",
+      "tagline": "",
+      "description": "",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-04-21",
+      "totalMessages": 7287,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 3,
+          "totalMessages": 7287,
+          "lastSession": "2026-04-21"
+        }
+      }
+    },
+    {
+      "slug": "cbquickbooks",
+      "name": "cbquickbooks",
+      "tagline": "Simplify Bookkeeping, Faster.",
+      "description": "cbquickbooks is a streamlined system designed for efficient accounting. It automates key tasks like invoice creation, expense tracking, and bank reconciliation, reducing manual effort and improving accuracy.  It\u2019s built for modern businesses seeking a robust and intuitive solution.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-04-21",
+      "totalMessages": 1416,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 1,
+          "totalMessages": 1416,
+          "lastSession": "2026-04-21"
+        }
+      }
+    },
+    {
+      "slug": "cbfront",
+      "name": "cbfront",
+      "tagline": "cbfront: Intelligent Systems, Seamlessly Built.",
+      "description": "cbfront is a cutting-edge system designed to streamline and automate key processes within your organization. Leveraging advanced technologies, it provides robust data management and efficient workflows.  Our goal is to optimize operations and unlock greater productivity.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-04-18",
+      "totalMessages": 2157,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 2,
+          "totalMessages": 2157,
+          "lastSession": "2026-04-18"
+        }
+      }
+    },
+    {
+      "slug": "cbingest",
+      "name": "cbingest",
+      "tagline": "Unlock System Insights.",
+      "description": "Cbingest is a system for analyzing and visualizing complex data flows within systems. It provides actionable insights through dynamic dashboards and reporting, enabling proactive problem-solving and optimization. Leveraging advanced analytics, Cbingest helps teams understand and improve system performance.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-04-18",
+      "totalMessages": 1823,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 1,
+          "totalMessages": 1823,
+          "lastSession": "2026-04-18"
+        }
+      }
+    },
+    {
+      "slug": "cbesig",
+      "name": "cbesig",
+      "tagline": "CBEGSIG: Secure Systems, Seamless Integration.",
+      "description": "CBEGSIG is a system designed to enhance cybersecurity across various platforms and networks. It focuses on proactive threat detection and robust data protection through advanced monitoring and analysis. We aim to build resilient and secure systems with integrated intelligence.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-04-18",
+      "totalMessages": 1617,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 2,
+          "totalMessages": 1617,
+          "lastSession": "2026-04-18"
+        }
+      }
+    },
+    {
+      "slug": "cbdc",
+      "name": "cbdc",
+      "tagline": "Unlock Digital Efficiency.",
+      "description": "CBDC is a system designed to streamline and secure digital transactions within a complex ecosystem. It leverages advanced blockchain technology to enhance data integrity and reduce fraud. This project focuses on creating a reliable and scalable platform for future financial systems.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "recent",
+      "technologies": [],
+      "lastActivity": "2026-04-14",
+      "totalMessages": 5286,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 2,
+          "totalMessages": 5286,
+          "lastSession": "2026-04-14"
+        }
+      }
+    },
+    {
+      "slug": "cbmcp",
+      "name": "cbmcp",
+      "tagline": "CBMCP: Intelligent Systems, Seamless Integration.",
+      "description": "CBMCP is a cutting-edge system designed to streamline complex workflows and enhance data management. Utilizing advanced algorithms and robust technologies, it provides automated insights and optimized processes across various systems.  Its core focus is on creating reliable and scalable solutions for modern business needs.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "recent",
+      "technologies": [],
+      "lastActivity": "2026-04-12",
+      "totalMessages": 3070,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 2,
+          "totalMessages": 3070,
+          "lastSession": "2026-04-12"
+        }
+      }
+    },
+    {
+      "slug": "cbai",
+      "name": "cbai",
+      "tagline": "Building Robust Systems, Seamlessly.",
+      "description": "cbai is a technical project focused on developing robust and scalable systems. We leverage advanced technologies to ensure stability, performance, and maintainability. Our goal is to create reliable and efficient solutions for complex challenges.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "recent",
+      "technologies": [],
+      "lastActivity": "2026-04-12",
+      "totalMessages": 1832,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 1,
+          "totalMessages": 1832,
+          "lastSession": "2026-04-12"
+        }
+      }
+    },
+    {
+      "slug": "cbmesh",
+      "name": "cbmesh",
+      "tagline": "Precision Integration. Enhanced Performance.",
+      "description": "cbmesh is a hardware-focused technology designed to optimize signal transmission and reduce noise in critical systems. Utilizing advanced [mention specific technology, e.g., metamaterials] and [mention another technology, e.g., impedance matching], it delivers superior performance and stability.  This project focuses on building robust, reliable hardware solutions.",
+      "category": "hardware",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "recent",
+      "technologies": [],
+      "lastActivity": "2026-04-05",
+      "totalMessages": 1978,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 1,
+          "totalMessages": 1978,
+          "lastSession": "2026-04-05"
+        }
+      }
+    },
+    {
+      "slug": "cbapp",
+      "name": "cbapp",
+      "tagline": "Connecting Data, Transforming Insights.",
+      "description": "\u2018cbapp\u2019 is a system designed to streamline data integration and analysis within our organization. It leverages advanced technologies to create a unified view of information, improving decision-making and operational efficiency.  This project focuses on robust data pipelines and insightful reporting.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "recent",
+      "technologies": [],
+      "lastActivity": "2026-04-02",
+      "totalMessages": 1856,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 1,
+          "totalMessages": 1856,
+          "lastSession": "2026-04-02"
+        }
+      }
+    },
+    {
+      "slug": "cbcron",
+      "name": "cbcron",
+      "tagline": "CBCron: Secure, Simplified, Connected.",
+      "description": "CBCron is a system designed for robust and efficient blockchain connectivity. It streamlines data exchange and verification across diverse systems, offering enhanced security and simplified integration. Utilizing [mention key technology - e.g., secure protocols], CBCron ensures seamless communication in complex environments.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "recent",
+      "technologies": [],
+      "lastActivity": "2026-03-31",
+      "totalMessages": 1279,
+      "sources": {
+        "claudeCode": {
+          "totalSessions": 1,
+          "totalMessages": 1279,
+          "lastSession": "2026-03-31"
+        }
+      }
+    },
+    {
+      "slug": "esp32",
+      "name": "ESP32",
+      "tagline": "Control Your World, One Chip at a Time.",
+      "description": "I have an ESP32 experiment kit. Want to learn about it.",
+      "category": "hardware",
+      "isResearch": false,
+      "isFeatured": true,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-02-18T21:12:13Z",
+      "totalMessages": 0,
+      "sources": {
+        "github": {
+          "repo": "tinymachines/esp32",
+          "stars": 0,
+          "language": "Python",
+          "lastPush": "2026-02-18"
+        }
+      }
+    },
+    {
+      "slug": "190personel",
+      "name": "190PERSONEL",
+      "tagline": "190PERSONEL: Seamless banking automation.",
+      "description": "190PERSONEL streamlines banking operations by intelligently automating key processes. Leveraging advanced technology, this project optimizes workflows and enhances efficiency across the entire banking ecosystem.  It\u2019s designed for robust, scalable solutions.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-02-13T22:00:40.326626+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "spicy",
+      "name": "Spicy",
+      "tagline": "Spice up your hardware.",
+      "description": "\u2018Spicy\u2019 is a hardware project focused on enhancing digital experience through innovative sensor integration. We're building a system that subtly shifts and reacts to ambient data, creating a dynamic and responsive interface.  Its goal is to provide a truly intuitive and engaging digital environment.",
+      "category": "hardware",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-02-04T02:26:12.396332+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "os",
+      "name": "OS",
+      "tagline": "Unlock AI Potential. Build with OS.",
+      "description": "OS is a technical project designed to enhance ClaudeCode projects through advanced AI integration. It focuses on building a powerful AI assistant to streamline development, automate tasks, and boost efficiency.  We\u2019re building a core tool for intelligent coding assistance.",
+      "category": "ai-ml",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-01-09T17:30:09.979309+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "impera",
+      "name": "IMPERA",
+      "tagline": "Unlock Intelligence. Command the Future.",
+      "description": "IMPERA is an AI/ML project focused on optimizing complex systems through intelligent automation. Leveraging advanced algorithms and deep learning, IMPERA analyzes data to identify patterns and streamline processes, delivering unparalleled insights and control.  It\u2019s designed to empower strategic decision-making with predictive capabilities.",
+      "category": "ai-ml",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2026-01-05T22:25:46.387665+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "vipulse",
+      "name": "VIPULSE",
+      "tagline": "VIPULSE: Seamlessly Connect USVI Systems.",
+      "description": "VIPULSE provides a unified command center for all USVI properties, streamlining operations and enhancing efficiency. It integrates data and workflows across all departments, creating a robust and accessible platform.  This project enhances control and optimizes performance within the USVI's complex infrastructure.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-12-22T15:38:09.055422+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "splam",
+      "name": "SPLAM",
+      "tagline": "SPLAM: Neutralize Text Spammers.",
+      "description": "SPLAM is a system designed to detect and mitigate text spam. Utilizing advanced linguistic analysis, it identifies and blocks malicious text patterns, protecting your online spaces. It\u2019s a proactive solution for maintaining a clean and secure digital environment.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-12-19T16:44:29.197375+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "ruralamfm",
+      "name": "RURALAMFM",
+      "tagline": "RURALAMFM: Amplifying Rural Voices.",
+      "description": "This is an ad buying system for a radio station network.",
+      "category": "hardware",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-12-18T16:32:01.621653+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "gnomes",
+      "name": "GNOMES",
+      "tagline": "AI-Powered Intelligence, System Evolution.",
+      "description": "GNOMES leverages advanced AI to intelligently augment and optimize existing systems. It\u2019s a transformative approach to system maintenance and improvement, dynamically identifying patterns and suggesting improvements across the entire infrastructure. This project focuses on leveraging AI for proactive and automated system management.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-12-11T14:17:50.006792+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "neotokyo",
+      "name": "NEOTOKYO",
+      "tagline": "NeoTokyo: Seamless Content Delivery.",
+      "description": "NeoTokyo is a system designed to optimize and distribute college content across various platforms. Utilizing advanced routing and caching, it ensures optimal user experience and minimal latency.  It\u2019s built for scalability and reliability, focusing on delivering content efficiently to students worldwide.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-12-11T01:42:42.655205+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "ugyftdrdtfygui",
+      "name": "ugyftdrdtfygui",
+      "tagline": "Unlocking Data Streams, Seamlessly.",
+      "description": "Ugyftdrdtfygui is a system designed to manage and optimize data flow within complex networks. It focuses on real-time data processing and reliable connectivity, crucial for modern systems.  It provides robust monitoring and transformation capabilities.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-12-08T19:55:30.205877+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "campaignbrain",
+      "name": "CAMPAIGNBRAIN",
+      "tagline": "Ignite Your Campaign. Strategically.",
+      "description": "CAMPAIGNBRAIN is a systems-based platform designed to streamline grassroots campaign management. It provides tools for task delegation, data tracking, and real-time analysis, optimizing your efforts for maximum impact.  We\u2019re building a smarter, more efficient approach to grassroots engagement.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-12-02T18:50:37.785352+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "vectl",
+      "name": "VECTL",
+      "tagline": "VECTL: Precision Vector Storage.",
+      "description": "VECTL is a new system designed for efficient storage and retrieval of vector similarity data. Utilizing advanced algorithms, it provides rapid similarity searches across large datasets, crucial for machine learning and data analytics.  It leverages solid-state technology for enhanced speed and stability.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-11-30T23:35:11.481171+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "tingymachinines",
+      "name": "TINGYMACHININES",
+      "tagline": "TINGYMACHININES: AI-powered systems, streamlined.",
+      "description": "TINGYMACHININES is a collection of tools designed to simplify the development and deployment of AI-driven systems. We provide a suite of technologies focused on efficient model building, deployment, and monitoring, empowering developers to quickly integrate AI into their applications.  It\u2019s about accelerating your AI journey.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-11-28T23:10:45.933734+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "azure",
+      "name": "AZURE",
+      "tagline": "AZURE: Modernize your legacy ASP.NET.",
+      "description": "Taking on a new project - old ASP.NET application hosted on Azure.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-11-21T19:21:26.332556+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "tinygrad",
+      "name": "TINYGRAD",
+      "tagline": "Unlock the potential of tiny gradients.",
+      "description": "TinyGrad is a project focused on mastering the intricacies of gradient descent algorithms. It provides a deep dive into optimization techniques, allowing users to understand and implement them effectively.  Gain a competitive edge with this comprehensive system for advanced numerical methods.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-11-20T20:49:00.117932+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "6502",
+      "name": "6502",
+      "tagline": "Unlock the Legacy: 6502 Systems.",
+      "description": "6502 is a project focused on reviving and extending the capabilities of the 6502 microcontroller. It offers tools and frameworks to develop applications for legacy systems and embedded devices, preserving valuable code and functionality.  This project leverages modern technologies to modernize and enhance existing 6502 systems.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-11-16T23:20:33.365308+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "carai",
+      "name": "CARAI",
+      "tagline": "CARAI: Smart buying decisions, simplified.",
+      "description": "Want to build a model that determines the best used car to buy based on various features.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-11-15T17:09:51.588939+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "physics",
+      "name": "PHYSICS",
+      "tagline": "Unlocking Insights, Transforming Data.",
+      "description": "PHYSICS is a system designed to analyze and interpret complex physics data. It streamlines research and development by providing robust tools for simulations, modeling, and visualization.  We empower scientists and engineers with powerful insights derived from physical systems.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-11-15T16:23:41.903704+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "a-game",
+      "name": "A GAME",
+      "tagline": "Forge your words, conquer the game.",
+      "description": "Want to create a novel, leisurely word game in the spirit of Wordl.",
+      "category": "hardware",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-11-06T14:26:51.627364+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "rust",
+      "name": "RUST",
+      "tagline": "Forge the Future. Securely. Rust.",
+      "description": "Want to learn Rust from ground-up - toolchains; compiler; memory safety; syntax; project structures, etc \u2026",
+      "category": "ai-ml",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-11-05T21:26:18.660879+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "job",
+      "name": "JOB",
+      "tagline": "Unlock Your Potential.",
+      "description": "JOB is a system designed to streamline job searching and enhance your career prospects. It utilizes advanced algorithms and data analysis to connect you with relevant opportunities.  It\u2019s your personalized pathway to professional success.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-11-03T18:06:21.668445+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "ferett",
+      "name": "FERETT",
+      "tagline": "Navigate the web, intelligently.",
+      "description": "We are going to design a system that seeks out information or goals on a web-page via dynamic Pupeteer commands.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-10-30T01:49:57.375247+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "victory-modeling",
+      "name": "VICTORY MODELING",
+      "tagline": "Unlock Model Power, Optimize Ahead.",
+      "description": "We want to up our modeling game. This project is for examining our current process and for discovering new ways to analyze, enhance and improve our modeling process with AI / Neural Nets / Machine learning.\n",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-10-21T21:22:33.748017+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "swrm",
+      "name": "SWRM",
+      "tagline": "Navigate the Web, Seamlessly.",
+      "description": "A remote-controlled cluster of headless web browsers.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-10-17T16:37:13.898246+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "clarion",
+      "name": "CLARION",
+      "tagline": "Clion: Clarity in your systems.",
+      "description": "Clion is a powerful system for managing and analyzing data within complex IT environments. It streamlines data integration, anomaly detection, and reporting, ensuring optimal system performance and proactive problem solving. Utilizing advanced analytics and visualization, Clion empowers teams to make informed decisions and maintain robust, reliable systems.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-10-13T19:34:09.227364+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "hotbits",
+      "name": "HOTBITS",
+      "tagline": "Unlock unpredictable outcomes.",
+      "description": "HOTBITS utilizes true random number generation to create truly unique and dynamic results. It\u2019s designed for creative applications requiring adaptability and surprise. Explore the potential of unpredictable data through HOTBITS.",
+      "category": "creative",
+      "isResearch": true,
+      "isFeatured": true,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-10-07T04:47:11Z",
+      "totalMessages": 0,
+      "sources": {
+        "github": {
+          "repo": "tinymachines/hotbits",
+          "stars": 0,
+          "language": "TypeScript",
+          "lastPush": "2025-10-07"
+        }
+      }
+    },
+    {
+      "slug": "umbra",
+      "name": "UMBRA",
+      "tagline": "Secure Connectivity, Seamlessly Distributed.",
+      "description": "A distributed VPN platform using OpenWRT, HAProxy and Transparent Proxy",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:24:42.285460+00:00",
+      "totalMessages": 8,
+      "sources": {
+        "claudeWeb": {
+          "conversationCount": 2,
+          "totalMessages": 8,
+          "lastConversation": "2025-10-22"
+        }
+      }
+    },
+    {
+      "slug": "stable-diffusion",
+      "name": "STABLE DIFFUSION",
+      "tagline": "Unleash the future of visuals. Stable Diffusion, engineered for precision.",
+      "description": "STABLE DIFFUSION is a hardware-focused project developing advanced diffusion models for enhanced image generation. We're pushing the boundaries of speed and detail, utilizing specialized hardware to deliver unparalleled results.  Expect optimized performance and robust control for your creative workflows.",
+      "category": "hardware",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:22:53.123197+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "assembly",
+      "name": "ASSEMBLY",
+      "tagline": "AI-Powered Assembly: Automate your code.",
+      "description": "I\u2019d like to learn Assembly. Let\u2019s build a full Web / WASM compiler.",
+      "category": "ai-ml",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:22:41.452421+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "pocket",
+      "name": "POCKET",
+      "tagline": "Pocket: Streamline your systems, intelligently.",
+      "description": "POCKET is a technical project focused on optimizing system workflows. It leverages advanced data analysis and automation to enhance efficiency and reduce bottlenecks within existing systems.  Our goal is to create a robust, scalable solution for improved operational performance.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:22:33.061483+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "random",
+      "name": "RANDOM",
+      "tagline": "Unlocking the Unexpected.",
+      "description": "RANDOM is a creative project exploring unexpected connections and ideas. We'll generate novel concepts and thought experiments, pushing beyond conventional thinking. Let\u2019s discover the next big thing \u2013 together.",
+      "category": "creative",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:22:06.663745+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "the-idea",
+      "name": "THE IDEA",
+      "tagline": "Unlocking Systems, One Innovation at a Time.",
+      "description": "THE IDEA is a project focused on developing innovative systems solutions. We're meticulously exploring and refining our approach to complex challenges, leveraging advanced technologies to create impactful results. Expect continuous learning and strategic advancements.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:21:58.874889+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "redteam",
+      "name": "REDTEAM",
+      "tagline": "Red Team: Uncover the Weakness.",
+      "description": "We are designing a red-team workflow for our investigative software.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:21:30.234860+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "spydr",
+      "name": "SPYDR",
+      "tagline": "Uncover Secrets. Deeply Analyze.",
+      "description": "SPYDR is an advanced OSINT crawler designed for comprehensive threat intelligence gathering. Utilizing cutting-edge techniques, it efficiently identifies and analyzes relevant data across the web and dark web.  It\u2019s built for rapid discovery and actionable insights.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:21:18.410631+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "transaxt",
+      "name": "TRANSAXT",
+      "tagline": "Transaxt: Secure, Transparent, Political Influence.",
+      "description": "Transaxt is a system designed to facilitate secure and verifiable political donations. Utilizing blockchain technology, it ensures transparency and minimizes fraud in campaign contributions. It offers robust auditing and tracking capabilities, promoting ethical and accountable political spending.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:21:03.622088+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "deepsift",
+      "name": "DEEPSIFT",
+      "tagline": "Deep Insights, Streamlined Systems.",
+      "description": "DEEPSIFT analyzes data from diverse sources to uncover hidden patterns and trends. It provides actionable insights for optimizing systems and improving performance.  This project focuses on intelligent data correlation for enhanced decision-making.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:20:52.445694+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "resume",
+      "name": "RESUME",
+      "tagline": "Elevate your resume, powerfully.",
+      "description": "RESUME is a tool designed to meticulously craft your professional resume, optimizing it for Applicant Tracking Systems (ATS) and showcasing your skills effectively. It provides customizable templates and suggestions to ensure your resume stands out.  It\u2019s your key to unlocking better job opportunities.",
+      "category": "hardware",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:20:33.547650+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "dspy",
+      "name": "DSPY",
+      "tagline": "DSPY: Precision Audio Decoding \u2013 Unleash the Sound.",
+      "description": "DSPY is a cutting-edge system designed for audio processing and decoding. It leverages advanced algorithms to deliver superior audio quality and efficient processing, ideal for professional audio engineers and developers.  It streamlines workflows and enhances audio fidelity.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:20:19.897848+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "snowflake",
+      "name": "SNOWFLAKE",
+      "tagline": "Snowflake: Data Insights, Seamlessly Delivered.",
+      "description": "Snowflake is a technical project focused on enhancing our QA process for contact queries. It utilizes advanced data analysis techniques to identify trends and improve accuracy. This project will streamline the QA workflow, leading to more reliable data and better customer experiences.",
+      "category": "data",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:20:09.981166+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "plumbr",
+      "name": "PLUMBR",
+      "tagline": "Flowing data, intelligent insights.",
+      "description": "Working on a low-level data plumbing toolkit for experimenting with AI datastreams.",
+      "category": "creative",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:19:59.912508+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "g-combinator",
+      "name": "G COMBINATOR",
+      "tagline": "Code Genesis: Building Systems with AI.",
+      "description": "Using Github gists with AI to create functional organelles that drive programs.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:19:47.632655+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "organization",
+      "name": "ORGANIZATION",
+      "tagline": "Organize & Thrive.",
+      "description": "ORGANIZATION is a system designed to streamline your tasks and boost productivity. It helps you prioritize, manage time, and achieve your goals through intelligent organization tools. Let's conquer your chaos!",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:19:32.143871+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "ai-chat",
+      "name": "AI CHAT",
+      "tagline": "Seamless Payments, Everywhere, Instantly.",
+      "description": "Ephemeral, ubiquitous AI payment backend that allows a user to make payments anywhere, anytime through several channels (iPhone App, SMS, Web, Carrier Pigeon ...)\n",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:19:12.337074+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "onshape",
+      "name": "ONSHAPE",
+      "tagline": "Shape Your Future, Digitally.",
+      "description": "ONSHAPE streamlines your 3D modeling workflow, offering intelligent tools and automation to optimize your designs. It\u2019s designed for efficient and accurate shape creation, boosting productivity across all stages of the process.  Get started with effortless 3D modeling, now.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:18:56.532701+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "cc",
+      "name": "CC",
+      "tagline": "Unlock Data Insights with CC.",
+      "description": "CC is a powerful tool for analyzing Snowflake data. It leverages advanced query techniques to uncover hidden patterns and trends, providing actionable intelligence.  It streamlines data exploration and reporting for improved decision-making.",
+      "category": "data",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:18:44.616151+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "zephyr",
+      "name": "ZEPHYR",
+      "tagline": "ZEPHYR: Edge-Driven Intelligence, Reimagined.",
+      "description": "AI Directed Self Modification network for the edge",
+      "category": "hardware",
+      "isResearch": true,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:18:23.735342+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "consulting",
+      "name": "CONSULTING",
+      "tagline": "Your Systems, Strategically Optimized.",
+      "description": "I\u2019d like to build a small consulting business; will need help organizing",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:18:11.169950+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "xray",
+      "name": "XRAY",
+      "tagline": "XRAY: Uncover the unseen.",
+      "description": "XRAY is a system designed to analyze your X-ray images and provide detailed insights. It automatically identifies anomalies and patterns within your scans, offering a quick and efficient diagnostic experience.  It\u2019s a powerful tool for medical professionals and researchers.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:17:44.067870+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "rural-amfm",
+      "name": "RURAL AMFM",
+      "tagline": "Connecting Rural Music, Seamlessly.",
+      "description": "I\u2019m the newly minted engineer of several radio stations. We use COMREX gear to shuttle the music stream to the tower.",
+      "category": "hardware",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:17:34.464690+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "crawl",
+      "name": "CRAWL",
+      "tagline": "CRAWL: Seamlessly gather & organize data.",
+      "description": "Working on a perpetual project to build my own web content aggregator.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:17:17.846426+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "dragonfli",
+      "name": "DRAGONFLI",
+      "tagline": "Decoding Skies, Predicting the Future.",
+      "description": "DRAGONFLI utilizes AI/ML to analyze aviation data, predicting potential risks and optimizing operations. Our system leverages advanced algorithms to improve safety, reduce delays, and enhance efficiency across the industry.  It\u2019s designed for proactive insights, not reactive responses.",
+      "category": "ai-ml",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:17:04.292374+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "bradley-io",
+      "name": "BRADLEY.IO",
+      "tagline": "Bradley.IO: Secure Data Streams.",
+      "description": "Bradley.IO is a platform for managing and securing data pipelines. It offers JSON parsing and validation, crucial for backend systems and API development.  We simplify complex data workflows for enhanced data integrity.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:16:54.733579+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "resurrecter",
+      "name": "RESURRECTER",
+      "tagline": "Reviving legacy sites, intelligently.",
+      "description": "Using tools to resurrect websites from CommonCrawl and other sources.\n",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-17T00:17:15.095094+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "wasm",
+      "name": "WASM",
+      "tagline": "Unlock Mobile Apps with WASM.",
+      "description": "WASM empowers you to build secure and performant mobile apps directly on the WebAssembly runtime.  It offers a modern, efficient alternative to traditional mobile development, streamlining development and enhancing security.  Seamlessly integrate WASM into your existing mobile projects.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-08-20T00:28:59.312164+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "networking",
+      "name": "NETWORKING",
+      "tagline": "Connect the world, intelligently.",
+      "description": "NETWORKING is a system focused on robust and secure network connectivity, leveraging OpenWRT's routing capabilities. We build reliable connections for diverse applications, ensuring optimal performance and stability.  It\u2019s about efficient data flow and network architecture.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-08-01T22:58:47.320551+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "classic-rock",
+      "name": "CLASSIC ROCK",
+      "tagline": "Legacy Sound. Modern Systems.",
+      "description": "\u2018CLASSIC ROCK\u2019 projects the definitive collection of Bash Scripts, meticulously recreating the sonic essence of iconic rock bands. Leveraging existing script data, it offers a powerful and intuitive tool for music automation and analysis.  This project transforms your favorite riffs into a dynamic system.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-07-31T03:03:37.232693+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "cc-data-warehouse",
+      "name": "CC DATA WAREHOUSE",
+      "tagline": "Unlock Data Potential, Streamline Insights.",
+      "description": "CC DATA WAREHOUSE is a powerful data warehouse designed to optimize Snowflake queries and enhance data analysis. Leveraging advanced query optimization techniques, it provides faster, more accurate results.  It\u2019s built for improved performance and data-driven decision-making.",
+      "category": "data",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-07-30T16:32:57.180961+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "watr",
+      "name": "WATR",
+      "tagline": "WATR: Secure & Adaptive Network Tracking.",
+      "description": "We are creating a custom 802.x protocol using SCAPY",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-07-18T19:01:51.278610+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "lisp",
+      "name": "LISP",
+      "tagline": "Unlock the power of code. Learn LISP for AI.",
+      "description": "LISP is a programming language focused on symbolic computation and AI. This project provides a practical introduction to LISP, utilizing it to build and analyze intelligent systems.  Gain hands-on experience with core AI concepts through this engaging learning experience.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-07-10T21:31:09.760939+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "myfw",
+      "name": "MYFW",
+      "tagline": "MYFW: Secure Your Legacy.",
+      "description": "A multi-server application for managing documents, wills and beneficiaries.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-07-09T01:26:24.698633+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "vt25",
+      "name": "VT25",
+      "tagline": "Connect Beyond Boundaries.",
+      "description": "A platform for p2p communications between contacts and businesses.",
+      "category": "systems",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-06-30T17:51:25.199656+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "sovereign",
+      "name": "sovereign",
+      "tagline": "An assembly-like agentic programming language designed for self-improving systems.",
+      "description": "An assembly-like agentic programming language designed for self-improving systems.",
+      "category": "ai-ml",
+      "isResearch": true,
+      "isFeatured": true,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-06-20T19:53:34Z",
+      "totalMessages": 0,
+      "sources": {
+        "github": {
+          "repo": "tinymachines/sovereign",
+          "stars": 1,
+          "language": "Python",
+          "lastPush": "2025-06-20"
+        }
+      }
+    },
+    {
+      "slug": "addai",
+      "name": "ADDAI",
+      "tagline": "Unlocking Brain Insights, Simply.",
+      "description": "ADDAI is a homegrown EEG monitor, meticulously crafted for enhanced data collection. We've developed a robust and intuitive system for analyzing brainwave activity, offering valuable insights for personal wellness and research.  This project prioritizes ease of use and privacy.",
+      "category": "creative",
+      "isResearch": true,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-06-07T23:11:16.953865+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "how-to-use-claude",
+      "name": "How to use Claude",
+      "tagline": "Unlock Claude's Potential: Your Guide to Conversation.",
+      "description": "An example project that also doubles as a how-to guide for using Claude. Chat with it to learn more about how to get the most out of chatting with Claude!",
+      "category": "hardware",
+      "isResearch": false,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-06-02T03:23:27.439230+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    }
+  ],
+  "categories": [
+    {
+      "id": "hardware",
+      "label": "Hardware & Edge",
+      "color": "var(--brand-primary)",
+      "icon": "Cpu",
+      "count": 11
+    },
+    {
+      "id": "ai-ml",
+      "label": "AI & Language",
+      "color": "var(--brand-secondary)",
+      "icon": "Brain",
+      "count": 6
+    },
+    {
+      "id": "data",
+      "label": "Data Engineering",
+      "color": "var(--brand-info)",
+      "icon": "Database",
+      "count": 3
+    },
+    {
+      "id": "systems",
+      "label": "Systems & Infra",
+      "color": "var(--brand-steel)",
+      "icon": "Server",
+      "count": 62
+    },
+    {
+      "id": "creative",
+      "label": "Creative & Research",
+      "color": "var(--brand-warning)",
+      "icon": "Lightbulb",
+      "count": 4
+    }
+  ],
+  "about": {
+    "bio": "AI-focused Software Architect with 15+ years designing secure, large-scale data systems for government and enterprise clients. Extensive hands-on experience with frontier AI models, agentic programming frameworks, and AI-augmented development workflows. Proven track record leading technical teams on classified projects and building high-availability infrastructure processing billions of records. Expert in AI/ML pipelines, distributed systems, cloud infrastructure, and secure data management. Active builder of open-source AI tools and agentic systems.",
+    "skills": [
+      "Go",
+      "Git",
+      "JSON",
+      "Nginx",
+      "HTML",
+      "Python",
+      "systemd",
+      "DuckDB",
+      "JWT",
+      "CSS",
+      "OAuth",
+      "FastAPI",
+      "SPI",
+      "Bash",
+      "SSH",
+      "Ollama",
+      "Pydantic",
+      "YAML",
+      "WireGuard",
+      "Markdown",
+      "WebSocket",
+      "Pytest",
+      "TOML",
+      "AWS",
+      "Redis",
+      "SQLite",
+      "Snowflake",
+      "CSV",
+      "React",
+      "Rust"
+    ],
+    "timeline": [
+      {
+        "year": "2024-present",
+        "title": "Founder & AI Systems Architect \u2014 SysForge.ai",
+        "description": "AI consulting and development firm delivering frontier AI solutions. Architecting AI-powered systems integrating frontier language models into enterprise workflows. Building custom agentic AI pipelines and AI-augmented development toolchains."
+      },
+      {
+        "year": "2022-present",
+        "title": "Architect & Developer \u2014 Enterprise Messaging Platform",
+        "description": "Enterprise-grade, high-volume messaging platform. Architected high-availability system handling millions of messages with 99.9% uptime. Built RESTful API layer with FastAPI integrating multiple carriers with automated failover."
+      },
+      {
+        "year": "2018-2022",
+        "title": "Architect & Developer \u2014 Enterprise Data Platform",
+        "description": "Large-scale ESP data management processing billions of messages and 100M+ contact records. Integrated 4.9 billion data points for ML model training and relationship discovery across 10,000+ data sources."
+      },
+      {
+        "year": "2014-2018",
+        "title": "Senior Architect \u2014 Fortune 500 Financial Services",
+        "description": "Investigative intelligence platform serving law enforcement and government agencies. Lead developer on classified project with the United States Government. Built ML models for entity resolution and relationship mapping."
+      }
+    ]
+  },
+  "labProjects": [
+    {
+      "slug": "hotbits",
+      "name": "HOTBITS",
+      "tagline": "Unlock unpredictable outcomes.",
+      "description": "HOTBITS utilizes true random number generation to create truly unique and dynamic results. It\u2019s designed for creative applications requiring adaptability and surprise. Explore the potential of unpredictable data through HOTBITS.",
+      "category": "creative",
+      "isResearch": true,
+      "isFeatured": true,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-10-07T04:47:11Z",
+      "totalMessages": 0,
+      "sources": {
+        "github": {
+          "repo": "tinymachines/hotbits",
+          "stars": 0,
+          "language": "TypeScript",
+          "lastPush": "2025-10-07"
+        }
+      }
+    },
+    {
+      "slug": "zephyr",
+      "name": "ZEPHYR",
+      "tagline": "ZEPHYR: Edge-Driven Intelligence, Reimagined.",
+      "description": "AI Directed Self Modification network for the edge",
+      "category": "hardware",
+      "isResearch": true,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-09-28T21:18:23.735342+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    },
+    {
+      "slug": "sovereign",
+      "name": "sovereign",
+      "tagline": "An assembly-like agentic programming language designed for self-improving systems.",
+      "description": "An assembly-like agentic programming language designed for self-improving systems.",
+      "category": "ai-ml",
+      "isResearch": true,
+      "isFeatured": true,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-06-20T19:53:34Z",
+      "totalMessages": 0,
+      "sources": {
+        "github": {
+          "repo": "tinymachines/sovereign",
+          "stars": 1,
+          "language": "Python",
+          "lastPush": "2025-06-20"
+        }
+      }
+    },
+    {
+      "slug": "addai",
+      "name": "ADDAI",
+      "tagline": "Unlocking Brain Insights, Simply.",
+      "description": "ADDAI is a homegrown EEG monitor, meticulously crafted for enhanced data collection. We've developed a robust and intuitive system for analyzing brainwave activity, offering valuable insights for personal wellness and research.  This project prioritizes ease of use and privacy.",
+      "category": "creative",
+      "isResearch": true,
+      "isFeatured": false,
+      "status": "active",
+      "technologies": [],
+      "lastActivity": "2025-06-07T23:11:16.953865+00:00",
+      "totalMessages": 0,
+      "sources": {}
+    }
+  ]
+}

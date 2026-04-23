@@ -1,0 +1,972 @@
+#!/usr/bin/env python3
+"""
+Nightly data pipeline for new.bradley.io
+Generates public/data/site-data.json from multiple sources:
+  - Claude Web export (conversations.json, projects.json, memories.json)
+  - GitHub repos (gh CLI)
+  - Existing ai-pilot-data.json (Claude Code stats)
+  - CBAI for AI enrichment
+
+Usage:
+  python3 scripts/nightly-pipeline.py [--verbose] [--skip-ai] [--skip-github]
+"""
+
+import json
+import os
+import sys
+import time
+import hashlib
+import subprocess
+import re
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any
+
+# ─── Configuration ────────────────────────────────────────────────────────
+
+SCRIPT_DIR = Path(__file__).parent
+PROJECT_ROOT = SCRIPT_DIR.parent
+OUTPUT_FILE = PROJECT_ROOT / "public" / "data" / "site-data.json"
+AI_PILOT_FILE = PROJECT_ROOT / "public" / "data" / "ai-pilot-data.json"
+CACHE_FILE = PROJECT_ROOT / ".summary-cache.json"
+
+# Load .env if exists
+ENV_FILE = PROJECT_ROOT / ".env"
+if ENV_FILE.exists():
+    for line in ENV_FILE.read_text().splitlines():
+        line = line.strip()
+        if line and not line.startswith("#") and "=" in line:
+            key, val = line.split("=", 1)
+            os.environ.setdefault(key.strip(), val.strip())
+
+CLAUDE_WEB_DATA_DIR = Path(os.environ.get(
+    "CLAUDE_WEB_DATA_DIR",
+    str(PROJECT_ROOT / "docs" / "spicy-claude-web")
+))
+
+FEATURED_REPOS = os.environ.get(
+    "FEATURED_REPOS",
+    "tinymachines/esp32,Sysforge-AI/sfproject,tinymachines/sovereign,tinymachines/hotbits"
+).split(",")
+
+RESEARCH_PROJECTS = os.environ.get(
+    "RESEARCH_PROJECTS",
+    "hotbits,sovereign,zephyr,spondr,addai"
+).split(",")
+
+PROJECT_ALIASES_RAW = os.environ.get(
+    "PROJECT_ALIASES",
+    '{"esp":"esp32","sfproject":"sysforge","sf":"sysforge"}'
+)
+try:
+    PROJECT_ALIASES: dict[str, str] = json.loads(PROJECT_ALIASES_RAW)
+except json.JSONDecodeError:
+    PROJECT_ALIASES = {}
+
+CBAI_URL = os.environ.get("CBAI_URL", "http://127.0.0.1:3220")
+CBAI_PROVIDER = os.environ.get("CBAI_PROVIDER", "ollama")
+
+BIG_IDEAS_ORGS = os.environ.get(
+    "BIG_IDEAS_ORGS",
+    "Nominate-AI,meatballai,tinymachines,Sysforge-AI"
+).split(",")
+
+VERBOSE = "--verbose" in sys.argv or "-v" in sys.argv
+SKIP_AI = "--skip-ai" in sys.argv
+SKIP_GITHUB = "--skip-github" in sys.argv
+
+# ─── Category Classification ─────────────────────────────────────────────
+
+CATEGORY_KEYWORDS: dict[str, list[str]] = {
+    "hardware": [
+        "esp32", "raspberry pi", "rpi", "arduino", "lora", "mesh", "ble",
+        "bluetooth", "wifi", "802.11", "probe", "sensor", "gpio", "uart",
+        "spi", "i2c", "firmware", "zephyr", "rtos", "nrf52", "stm32",
+        "platformio", "freertos", "pcb", "antenna", "rf", "radio",
+        "rtl-sdr", "sdr", "usb", "entropy",
+    ],
+    "ai-ml": [
+        "claude", "llm", "gpt", "language model", "nlp", "prompt",
+        "embedding", "transformer", "inference", "fine-tune", "rag",
+        "agent", "sovereign", "compiler", "lexer", "parser", "repl",
+        "language design", "type system",
+    ],
+    "data": [
+        "snowflake", "duckdb", "etl", "pipeline", "data warehouse",
+        "dimensional", "dbt", "airflow", "spark", "kafka", "sql",
+        "analytics", "schema", "migration", "parquet", "arrow",
+    ],
+    "systems": [
+        "docker", "kubernetes", "nginx", "deployment", "ci/cd",
+        "microservice", "api", "fastapi", "distributed", "devops",
+        "monitoring", "terraform", "infrastructure", "campaign brain",
+        "sysforge", "mcp", "webhook", "gateway",
+    ],
+    "creative": [
+        "eeg", "brainwave", "generative", "art", "music", "experiment",
+        "research", "prototype", "trng", "random", "entropy", "creative",
+        "visualization", "three.js", "d3", "interactive",
+    ],
+}
+
+
+def classify_category(name: str, description: str, technologies: list[str]) -> str:
+    """Classify a project into a category based on keyword matching."""
+    text = f"{name} {description} {' '.join(technologies)}".lower()
+    scores: dict[str, int] = {}
+    for cat_id, keywords in CATEGORY_KEYWORDS.items():
+        scores[cat_id] = sum(1 for kw in keywords if kw in text)
+    best = max(scores, key=lambda k: scores[k])
+    if scores[best] == 0:
+        return "systems"  # default
+    return best
+
+
+def normalize_name(name: str) -> str:
+    """Normalize a project name for fuzzy matching."""
+    name = name.lower().strip()
+    # Apply aliases
+    for alias, canonical in PROJECT_ALIASES.items():
+        if name == alias:
+            return canonical
+    # Remove common prefixes/suffixes
+    name = re.sub(r"^(tinymachines|sysforge-ai)/", "", name)
+    name = re.sub(r"\.(py|ts|js|rs)$", "", name)
+    name = re.sub(r"[^a-z0-9]", "-", name)
+    name = re.sub(r"-+", "-", name).strip("-")
+    return name
+
+
+def log(msg: str):
+    if VERBOSE:
+        print(f"  [{datetime.now().strftime('%H:%M:%S')}] {msg}")
+
+
+# ─── Stage 1: Collect ────────────────────────────────────────────────────
+
+def collect_claude_web() -> dict[str, Any]:
+    """Read Claude Web export data."""
+    result: dict[str, Any] = {"projects": [], "conversations": [], "memories": []}
+
+    projects_file = CLAUDE_WEB_DATA_DIR / "projects.json"
+    conversations_file = CLAUDE_WEB_DATA_DIR / "conversations.json"
+    memories_file = CLAUDE_WEB_DATA_DIR / "memories.json"
+
+    if projects_file.exists():
+        data = json.loads(projects_file.read_text())
+        result["projects"] = data if isinstance(data, list) else []
+        log(f"Claude Web: {len(result['projects'])} projects")
+
+    if conversations_file.exists():
+        data = json.loads(conversations_file.read_text())
+        result["conversations"] = data if isinstance(data, list) else []
+        log(f"Claude Web: {len(result['conversations'])} conversations")
+
+    if memories_file.exists():
+        data = json.loads(memories_file.read_text())
+        result["memories"] = data if isinstance(data, list) else []
+        log(f"Claude Web: {len(result['memories'])} memories")
+
+    return result
+
+
+def collect_github() -> list[dict[str, Any]]:
+    """Fetch GitHub repo data using gh CLI."""
+    if SKIP_GITHUB:
+        log("Skipping GitHub collection (--skip-github)")
+        return []
+
+    repos = []
+    for repo_spec in FEATURED_REPOS:
+        repo_spec = repo_spec.strip()
+        if not repo_spec:
+            continue
+        try:
+            result = subprocess.run(
+                ["gh", "repo", "view", repo_spec, "--json",
+                 "name,description,url,pushedAt,stargazerCount,primaryLanguage,isPrivate"],
+                capture_output=True, text=True, timeout=15,
+            )
+            if result.returncode == 0:
+                data = json.loads(result.stdout)
+                data["fullName"] = repo_spec
+                repos.append(data)
+                log(f"GitHub: fetched {repo_spec}")
+            else:
+                log(f"GitHub: failed {repo_spec}: {result.stderr.strip()}")
+        except (subprocess.TimeoutExpired, FileNotFoundError) as e:
+            log(f"GitHub: error {repo_spec}: {e}")
+
+    return repos
+
+
+def collect_ai_pilot() -> dict[str, Any] | None:
+    """Read existing ai-pilot-data.json."""
+    if AI_PILOT_FILE.exists():
+        data = json.loads(AI_PILOT_FILE.read_text())
+        log(f"AI Pilot: loaded ({len(data.get('missionLog', []))} missions)")
+        return data
+    log("AI Pilot: file not found")
+    return None
+
+
+# ─── Stage 2: Merge & Deduplicate ────────────────────────────────────────
+
+def merge_projects(
+    claude_web: dict[str, Any],
+    github_repos: list[dict[str, Any]],
+    ai_pilot: dict[str, Any] | None,
+) -> list[dict[str, Any]]:
+    """Build unified project records with linked sources."""
+    projects: dict[str, dict[str, Any]] = {}  # keyed by normalized name
+
+    # Group conversations by name similarity to projects
+    convo_name_index: dict[str, list[dict]] = {}
+    for convo in claude_web.get("conversations", []):
+        name = convo.get("name", "")
+        if name:
+            key = normalize_name(name.split(" - ")[0].split(":")[0])
+            if key not in convo_name_index:
+                convo_name_index[key] = []
+            convo_name_index[key].append(convo)
+
+    # Claude Web projects
+    for proj in claude_web.get("projects", []):
+        name = proj.get("name", "Untitled")
+        norm = normalize_name(name)
+        if norm not in projects:
+            projects[norm] = {
+                "slug": norm,
+                "name": name,
+                "tagline": "",
+                "description": proj.get("description", ""),
+                "category": "systems",
+                "isResearch": norm in RESEARCH_PROJECTS,
+                "isFeatured": False,
+                "status": "active",
+                "technologies": [],
+                "lastActivity": proj.get("updated_at", ""),
+                "totalMessages": 0,
+                "sources": {},
+            }
+
+        # Count messages from conversations matching this project
+        matched_convos = convo_name_index.get(norm, [])
+        total_msgs = sum(
+            len(c.get("chat_messages", []))
+            for c in matched_convos
+        )
+        last_convo = max(
+            (c.get("updated_at", "") for c in matched_convos),
+            default=""
+        )
+
+        if total_msgs > 0:
+            projects[norm]["sources"]["claudeWeb"] = {
+                "conversationCount": len(matched_convos),
+                "totalMessages": total_msgs,
+                "lastConversation": last_convo[:10] if last_convo else "",
+            }
+            projects[norm]["totalMessages"] += total_msgs
+
+    # GitHub repos
+    for repo in github_repos:
+        name = repo.get("name", "")
+        norm = normalize_name(name)
+        if norm not in projects:
+            projects[norm] = {
+                "slug": norm,
+                "name": name,
+                "tagline": repo.get("description", "") or "",
+                "description": repo.get("description", "") or "",
+                "category": "systems",
+                "isResearch": norm in RESEARCH_PROJECTS,
+                "isFeatured": True,
+                "status": "active",
+                "technologies": [],
+                "lastActivity": repo.get("pushedAt", ""),
+                "totalMessages": 0,
+                "sources": {},
+            }
+
+        lang = repo.get("primaryLanguage", {})
+        projects[norm]["sources"]["github"] = {
+            "repo": repo.get("fullName", ""),
+            "stars": repo.get("stargazerCount", 0),
+            "language": lang.get("name", "") if lang else "",
+            "lastPush": (repo.get("pushedAt", "") or "")[:10],
+        }
+        projects[norm]["isFeatured"] = True
+
+        # Update lastActivity
+        pushed = repo.get("pushedAt", "")
+        if pushed > projects[norm].get("lastActivity", ""):
+            projects[norm]["lastActivity"] = pushed
+
+    # AI Pilot missions → Claude Code stats
+    if ai_pilot:
+        for mission in ai_pilot.get("missionLog", []):
+            name = mission.get("name", "")
+            norm = normalize_name(name)
+            if norm not in projects:
+                projects[norm] = {
+                    "slug": norm,
+                    "name": name,
+                    "tagline": "",
+                    "description": "",
+                    "category": "systems",
+                    "isResearch": norm in RESEARCH_PROJECTS,
+                    "isFeatured": False,
+                    "status": mission.get("status", "active"),
+                    "technologies": mission.get("technologies", []),
+                    "lastActivity": mission.get("lastActive", ""),
+                    "totalMessages": 0,
+                    "sources": {},
+                }
+
+            projects[norm]["sources"]["claudeCode"] = {
+                "totalSessions": mission.get("sessions", 0),
+                "totalMessages": mission.get("messages", 0),
+                "lastSession": mission.get("lastActive", "")[:10] if mission.get("lastActive") else "",
+            }
+            projects[norm]["totalMessages"] += mission.get("messages", 0)
+
+            # Merge technologies
+            existing_techs = set(projects[norm].get("technologies", []))
+            existing_techs.update(mission.get("technologies", []))
+            projects[norm]["technologies"] = sorted(existing_techs)
+
+            # Update status
+            if mission.get("status") == "active":
+                projects[norm]["status"] = "active"
+
+    # Classify categories
+    for norm, proj in projects.items():
+        proj["category"] = classify_category(
+            proj["name"],
+            proj["description"],
+            proj.get("technologies", []),
+        )
+
+    return list(projects.values())
+
+
+# ─── Stage 3: AI Enrichment ──────────────────────────────────────────────
+
+def load_cache() -> dict[str, Any]:
+    if CACHE_FILE.exists():
+        return json.loads(CACHE_FILE.read_text())
+    return {}
+
+
+def save_cache(cache: dict[str, Any]):
+    CACHE_FILE.write_text(json.dumps(cache, indent=2))
+
+
+def project_hash(proj: dict) -> str:
+    """Hash key fields to detect changes."""
+    key = f"{proj['name']}|{proj['description']}|{proj.get('totalMessages', 0)}"
+    return hashlib.md5(key.encode()).hexdigest()[:12]
+
+
+def enrich_with_ai(projects: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Use CBAI to generate taglines and descriptions for projects missing them."""
+    if SKIP_AI:
+        log("Skipping AI enrichment (--skip-ai)")
+        return projects
+
+    cache = load_cache()
+    updated = False
+
+    for proj in projects:
+        phash = project_hash(proj)
+        cache_key = f"{proj['slug']}_{phash}"
+
+        # Check cache
+        if cache_key in cache:
+            cached = cache[cache_key]
+            if not proj.get("tagline"):
+                proj["tagline"] = cached.get("tagline", "")
+            if not proj.get("description") or len(proj["description"]) < 50:
+                proj["description"] = cached.get("description", proj["description"])
+            continue
+
+        # Only call AI if we need tagline or description
+        if proj.get("tagline") and len(proj.get("description", "")) > 50:
+            continue
+
+        log(f"AI enrichment: {proj['name']}")
+        try:
+            import urllib.request
+            prompt = (
+                f"Generate a short tagline (under 80 chars) and a 2-3 sentence description "
+                f"for a technical project called '{proj['name']}'. "
+                f"Category: {proj['category']}. "
+                f"Technologies: {', '.join(proj.get('technologies', [])[:5])}. "
+                f"Existing description: {proj.get('description', 'none')[:200]}. "
+                f"Return JSON: {{\"tagline\": \"...\", \"description\": \"...\"}}"
+            )
+            payload = json.dumps({
+                "messages": [{"role": "user", "content": prompt}],
+                "provider": CBAI_PROVIDER,
+                "max_tokens": 300,
+            }).encode()
+            req = urllib.request.Request(
+                f"{CBAI_URL}/api/v1/chat",
+                data=payload,
+                headers={"Content-Type": "application/json"},
+            )
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                result = json.loads(resp.read())
+                content = result.get("content", "")
+                # Try to parse JSON from response
+                match = re.search(r'\{[^}]+\}', content)
+                if match:
+                    enriched = json.loads(match.group())
+                    if not proj.get("tagline"):
+                        proj["tagline"] = enriched.get("tagline", "")
+                    if not proj.get("description") or len(proj["description"]) < 50:
+                        proj["description"] = enriched.get("description", proj["description"])
+                    cache[cache_key] = enriched
+                    updated = True
+
+            time.sleep(2)  # Rate limit
+        except Exception as e:
+            log(f"AI enrichment failed for {proj['name']}: {e}")
+
+    if updated:
+        save_cache(cache)
+
+    return projects
+
+
+def generate_claude_corner(
+    projects: list[dict[str, Any]],
+    stats: dict[str, Any],
+) -> dict[str, Any] | None:
+    """Generate a witty AI commentary for Claude's Corner."""
+    if SKIP_AI:
+        log("Skipping Claude Corner (--skip-ai)")
+        return None
+
+    import urllib.request
+
+    active = [p for p in projects if p.get("status") == "active"]
+    top_projects = ", ".join(p["name"] for p in active[:5])
+    moods = ["excited", "reflective", "impressed", "curious", "amused"]
+
+    prompt = (
+        f"You are Claude, an AI co-developer. Write a witty 2-3 sentence commentary about Bradley's recent work. "
+        f"Stats: {stats.get('totalProjects', 0)} projects, {stats.get('totalMessages', 0):,} messages, "
+        f"{stats.get('streak', 0)}-day streak. Top active projects: {top_projects}. "
+        f"Pick a mood from: {', '.join(moods)}. "
+        f'Return JSON: {{"quote": "...", "context": "...", "mood": "..."}}'
+    )
+
+    try:
+        payload = json.dumps({
+            "messages": [{"role": "user", "content": prompt}],
+            "provider": CBAI_PROVIDER,
+            "max_tokens": 400,
+        }).encode()
+        req = urllib.request.Request(
+            f"{CBAI_URL}/api/v1/chat",
+            data=payload,
+            headers={"Content-Type": "application/json"},
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            result = json.loads(resp.read())
+            content = result.get("content", "")
+            match = re.search(r'\{[^}]+\}', content)
+            if match:
+                parsed = json.loads(match.group())
+                if parsed.get("mood") not in moods:
+                    parsed["mood"] = "impressed"
+                parsed["generatedAt"] = datetime.now(timezone.utc).isoformat()
+                log(f"Claude Corner generated: mood={parsed['mood']}")
+                return parsed
+    except Exception as e:
+        log(f"Claude Corner generation failed: {e}")
+
+    return None
+
+
+def generate_claude_recommendations(projects: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Generate AI co-developer involvement text for featured/active projects."""
+    if SKIP_AI:
+        log("Skipping Claude recommendations (--skip-ai)")
+        return projects
+
+    import urllib.request
+
+    featured = [p for p in projects if p.get("isFeatured") and p.get("status") == "active"]
+
+    for proj in featured:
+        if proj.get("claudeInvolvement"):
+            continue
+
+        log(f"Generating Claude involvement for: {proj['name']}")
+        prompt = (
+            f"You are Claude, an AI co-developer. In 2-3 sentences, describe your involvement "
+            f"in the project '{proj['name']}'. Category: {proj['category']}. "
+            f"Technologies: {', '.join(proj.get('technologies', [])[:5])}. "
+            f"Description: {proj.get('description', 'none')[:200]}. "
+            f"Messages: {proj.get('totalMessages', 0)}. "
+            f"Write in first person. Be specific about what you helped with. "
+            f"Return only the text, no JSON."
+        )
+
+        try:
+            payload = json.dumps({
+                "messages": [{"role": "user", "content": prompt}],
+                "provider": CBAI_PROVIDER,
+                "max_tokens": 200,
+            }).encode()
+            req = urllib.request.Request(
+                f"{CBAI_URL}/api/v1/chat",
+                data=payload,
+                headers={"Content-Type": "application/json"},
+            )
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                result = json.loads(resp.read())
+                content = result.get("content", "").strip()
+                if content and len(content) > 20:
+                    proj["claudeInvolvement"] = content
+                    log(f"  Generated {len(content)} chars")
+
+            time.sleep(2)  # Rate limit
+        except Exception as e:
+            log(f"  Failed: {e}")
+
+    return projects
+
+
+# ─── Stage 4: Build Activity Feed ────────────────────────────────────────
+
+def build_activity_feed(
+    projects: list[dict[str, Any]],
+    claude_web: dict[str, Any],
+    github_repos: list[dict[str, Any]],
+    ai_pilot: dict[str, Any] | None,
+) -> list[dict[str, Any]]:
+    """Merge recent events, sort newest-first, cap at 50."""
+    feed: list[dict[str, Any]] = []
+
+    # Claude Web conversations (recent ones)
+    for convo in claude_web.get("conversations", []):
+        updated = convo.get("updated_at", "")
+        name = convo.get("name", "Untitled conversation")
+        msg_count = len(convo.get("chat_messages", []))
+        if msg_count < 2:
+            continue
+
+        summary = convo.get("summary", "")
+        if not summary and convo.get("chat_messages"):
+            # Use first human message as summary
+            for msg in convo["chat_messages"]:
+                if msg.get("sender") == "human" and msg.get("text"):
+                    summary = msg["text"][:200]
+                    break
+        # Strip markdown formatting from summaries
+        if summary:
+            summary = re.sub(r'\*?\*?Conversation [Oo]verview\*?\*?\s*', '', summary)
+            summary = re.sub(r'\*\*([^*]+)\*\*', r'\1', summary)
+            summary = summary.strip()
+
+        # Try to match to a project
+        convo_norm = normalize_name(name.split(" - ")[0].split(":")[0])
+        matched_project = None
+        matched_category = None
+        for proj in projects:
+            if proj["slug"] == convo_norm or convo_norm in proj["slug"] or proj["slug"] in convo_norm:
+                matched_project = proj["slug"]
+                matched_category = proj["category"]
+                break
+
+        feed.append({
+            "type": "claude-web",
+            "title": name[:100],
+            "description": summary[:250] if summary else f"Conversation with {msg_count} messages",
+            "projectSlug": matched_project,
+            "category": matched_category,
+            "date": updated,
+            "metadata": {"messages": msg_count},
+        })
+
+    # GitHub pushes
+    for repo in github_repos:
+        pushed = repo.get("pushedAt", "")
+        name = repo.get("name", "")
+        norm = normalize_name(name)
+        matched_project = None
+        matched_category = None
+        for proj in projects:
+            if proj["slug"] == norm:
+                matched_project = proj["slug"]
+                matched_category = proj["category"]
+                break
+
+        feed.append({
+            "type": "github",
+            "title": f"Activity on {repo.get('fullName', name)}",
+            "description": repo.get("description", "") or f"Repository {name}",
+            "projectSlug": matched_project,
+            "category": matched_category,
+            "date": pushed,
+            "metadata": {"repo": repo.get("fullName", "")},
+        })
+
+    # AI Pilot active days (from heatmap)
+    if ai_pilot:
+        for day in ai_pilot.get("activityHeatmap", []):
+            if day.get("count", 0) > 0:
+                feed.append({
+                    "type": "claude-code",
+                    "title": f"Claude Code session ({day['count']} messages)",
+                    "description": f"{day.get('sessions', 0)} sessions, {day.get('toolCalls', 0)} tool calls",
+                    "projectSlug": None,
+                    "category": None,
+                    "date": day["date"] + "T23:59:00Z",
+                    "metadata": {
+                        "messages": day["count"],
+                        "sessions": day.get("sessions", 0),
+                    },
+                })
+
+    # Sort newest-first, cap at 50
+    feed.sort(key=lambda x: x.get("date", ""), reverse=True)
+    return feed[:50]
+
+
+# ─── Stage 5: Output ─────────────────────────────────────────────────────
+
+def build_stats(
+    projects: list[dict[str, Any]],
+    ai_pilot: dict[str, Any] | None,
+) -> dict[str, Any]:
+    """Compute aggregate stats."""
+    total_messages = sum(p.get("totalMessages", 0) for p in projects)
+    total_sessions = 0
+    if ai_pilot and ai_pilot.get("license"):
+        total_sessions = ai_pilot["license"].get("totalSessions", 0)
+        total_messages = max(total_messages, ai_pilot["license"].get("totalMessages", 0))
+
+    streak = 0
+    active_days = 0
+    if ai_pilot and ai_pilot.get("streaks"):
+        streak = ai_pilot["streaks"].get("current", 0)
+        active_days = ai_pilot["streaks"].get("totalActiveDays", 0)
+
+    return {
+        "totalProjects": len(projects),
+        "totalSessions": total_sessions,
+        "totalMessages": total_messages,
+        "activeDays": active_days,
+        "streak": streak,
+    }
+
+
+def build_category_summaries(projects: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Build category summary with counts."""
+    from collections import Counter
+    cat_counts = Counter(p["category"] for p in projects)
+
+    CATEGORY_META = {
+        "hardware": {"label": "Hardware & Edge", "color": "var(--brand-primary)", "icon": "Cpu"},
+        "ai-ml": {"label": "AI & Language", "color": "var(--brand-secondary)", "icon": "Brain"},
+        "data": {"label": "Data Engineering", "color": "var(--brand-info)", "icon": "Database"},
+        "systems": {"label": "Systems & Infra", "color": "var(--brand-steel)", "icon": "Server"},
+        "creative": {"label": "Creative & Research", "color": "var(--brand-warning)", "icon": "Lightbulb"},
+    }
+
+    return [
+        {
+            "id": cat_id,
+            **meta,
+            "count": cat_counts.get(cat_id, 0),
+        }
+        for cat_id, meta in CATEGORY_META.items()
+    ]
+
+
+def build_about(ai_pilot: dict[str, Any] | None) -> dict[str, Any]:
+    """Build about section (mostly static)."""
+    skills = []
+    if ai_pilot:
+        skills = [s["name"] for s in ai_pilot.get("skillsCloud", [])[:30]]
+
+    if not skills:
+        skills = [
+            "Python", "Bash", "C#/.NET", "Rust", "C/C++", "SQL",
+            "Claude API", "OpenAI GPT-4", "RAG Pipelines", "Pinecone",
+            "LangChain", "Agentic Frameworks", "Prompt Engineering",
+            "FastAPI", "AWS", "Docker", "Snowflake", "PostgreSQL",
+            "DynamoDB", "Redis", "Elasticsearch", "Apache Solr",
+            "ESP32", "LoRa", "Distributed Systems",
+        ]
+
+    return {
+        "bio": (
+            "AI-focused Software Architect with 15+ years designing secure, large-scale data systems "
+            "for government and enterprise clients. Extensive hands-on experience with frontier AI models, "
+            "agentic programming frameworks, and AI-augmented development workflows. Proven track record "
+            "leading technical teams on classified projects and building high-availability infrastructure "
+            "processing billions of records. Expert in AI/ML pipelines, distributed systems, cloud "
+            "infrastructure, and secure data management. Active builder of open-source AI tools and "
+            "agentic systems."
+        ),
+        "skills": skills,
+        "timeline": [
+            {"year": "2024-present", "title": "Founder & AI Systems Architect — SysForge.ai",
+             "description": "AI consulting and development firm delivering frontier AI solutions. Architecting AI-powered systems integrating frontier language models into enterprise workflows. Building custom agentic AI pipelines and AI-augmented development toolchains."},
+            {"year": "2022-present", "title": "Architect & Developer — Enterprise Messaging Platform",
+             "description": "Enterprise-grade, high-volume messaging platform. Architected high-availability system handling millions of messages with 99.9% uptime. Built RESTful API layer with FastAPI integrating multiple carriers with automated failover."},
+            {"year": "2018-2022", "title": "Architect & Developer — Enterprise Data Platform",
+             "description": "Large-scale ESP data management processing billions of messages and 100M+ contact records. Integrated 4.9 billion data points for ML model training and relationship discovery across 10,000+ data sources."},
+            {"year": "2014-2018", "title": "Senior Architect — Fortune 500 Financial Services",
+             "description": "Investigative intelligence platform serving law enforcement and government agencies. Lead developer on classified project with the United States Government. Built ML models for entity resolution and relationship mapping."},
+        ],
+    }
+
+
+# ─── Stage: Big Ideas (Cross-Org Commit Intelligence) ────────────────
+
+def collect_cross_org_commits() -> list[dict[str, str]]:
+    """Fetch recent commits across all configured orgs."""
+    if SKIP_GITHUB:
+        log("Skipping cross-org commits (--skip-github)")
+        return []
+
+    since = (datetime.now(timezone.utc) - __import__("datetime").timedelta(days=7)).isoformat()
+    commits: list[dict[str, str]] = []
+    noise_prefixes = ("bump:", "deploy:", "nightly:", "merge ", "chore: bump", "chore: deploy")
+
+    for org in BIG_IDEAS_ORGS:
+        org = org.strip()
+        if not org:
+            continue
+
+        # Get active repos for this org
+        try:
+            result = subprocess.run(
+                ["gh", "api", f"/orgs/{org}/repos", "-q",
+                 '[.[] | select(.pushed_at > "' + since[:10] + '") | .full_name] | .[:10] | .[]'],
+                capture_output=True, text=True, timeout=15,
+            )
+            if result.returncode != 0:
+                # Try as user instead of org
+                result = subprocess.run(
+                    ["gh", "api", f"/users/{org}/repos?sort=pushed&per_page=10", "-q",
+                     '[.[] | select(.pushed_at > "' + since[:10] + '") | .full_name] | .[:10] | .[]'],
+                    capture_output=True, text=True, timeout=15,
+                )
+            if result.returncode != 0:
+                log(f"Big Ideas: failed to list repos for {org}")
+                continue
+
+            repo_names = [r.strip() for r in result.stdout.strip().splitlines() if r.strip()]
+            log(f"Big Ideas: {org} → {len(repo_names)} active repos")
+
+        except (subprocess.TimeoutExpired, FileNotFoundError) as e:
+            log(f"Big Ideas: error listing {org}: {e}")
+            continue
+
+        # Get recent commits for each repo
+        for repo_full in repo_names:
+            try:
+                result = subprocess.run(
+                    ["gh", "api", f"/repos/{repo_full}/commits?since={since}&per_page=20",
+                     "-q", r'.[] | "\(.commit.message | split("\n") | .[0])\t\(.commit.author.date)\t\(.html_url)"'],
+                    capture_output=True, text=True, timeout=15,
+                )
+                if result.returncode != 0:
+                    continue
+
+                for line in result.stdout.strip().splitlines():
+                    parts = line.split("\t")
+                    if len(parts) < 2:
+                        continue
+                    msg = parts[0].strip()
+                    date = parts[1].strip() if len(parts) > 1 else ""
+
+                    # Filter noise
+                    if any(msg.lower().startswith(p) for p in noise_prefixes):
+                        continue
+                    if len(msg) < 10:
+                        continue
+
+                    commits.append({
+                        "repo": repo_full,
+                        "message": msg[:200],
+                        "date": date,
+                    })
+
+            except (subprocess.TimeoutExpired, FileNotFoundError):
+                continue
+
+    log(f"Big Ideas: collected {len(commits)} commits across {len(BIG_IDEAS_ORGS)} orgs")
+    return commits
+
+
+def generate_big_ideas(commits: list[dict[str, str]]) -> list[dict[str, Any]]:
+    """Use CBAI to synthesize top 3 big ideas from recent commits."""
+    if SKIP_AI:
+        log("Skipping Big Ideas generation (--skip-ai)")
+        return []
+
+    if not commits:
+        log("Big Ideas: no commits to analyze")
+        return []
+
+    # Check cache (keyed by today's date)
+    cache = load_cache()
+    today_key = f"big_ideas_{datetime.now(timezone.utc).strftime('%Y-%m-%d')}"
+    if today_key in cache:
+        log("Big Ideas: using cached result")
+        return cache[today_key]
+
+    import urllib.request
+
+    # Build commit summary for the prompt
+    commit_lines = []
+    for c in commits[:80]:  # Cap to avoid token limits
+        commit_lines.append(f"- [{c['repo']}] {c['message']}")
+    commit_text = "\n".join(commit_lines)
+
+    prompt = (
+        "You are analyzing recent git commits across multiple projects for a developer portfolio site. "
+        "Identify the TOP 3 most interesting themes or 'big ideas' emerging from this work. "
+        "Focus on what's genuinely novel or significant — new capabilities, architectural shifts, creative experiments. "
+        "Skip routine maintenance.\n\n"
+        f"Recent commits (last 7 days):\n{commit_text}\n\n"
+        "Return a JSON array of exactly 3 objects:\n"
+        '[{"title": "5-8 word punchy headline", "description": "1-2 sentence summary", '
+        '"repos": ["org/repo"], "category": "ai-ml|systems|creative|hardware|data"}]\n\n'
+        "Return ONLY the JSON array, no other text."
+    )
+
+    try:
+        payload = json.dumps({
+            "messages": [{"role": "user", "content": prompt}],
+            "provider": CBAI_PROVIDER,
+            "max_tokens": 800,
+        }).encode()
+        req = urllib.request.Request(
+            f"{CBAI_URL}/api/v1/chat",
+            data=payload,
+            headers={"Content-Type": "application/json"},
+        )
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            result = json.loads(resp.read())
+            content = result.get("content", "")
+
+            # Parse JSON array from response
+            match = re.search(r'\[.*\]', content, re.DOTALL)
+            if match:
+                ideas = json.loads(match.group())
+                if isinstance(ideas, list) and len(ideas) > 0:
+                    # Normalize: take first category if pipe-separated
+                    for idea in ideas:
+                        cat = idea.get("category", "systems")
+                        idea["category"] = cat.split("|")[0].strip()
+
+                    # Add dates from most recent matching commit
+                    for idea in ideas:
+                        idea_repos = idea.get("repos", [])
+                        latest_date = ""
+                        for c in commits:
+                            if any(r in c["repo"] for r in idea_repos):
+                                if c["date"] > latest_date:
+                                    latest_date = c["date"]
+                        idea["date"] = latest_date or datetime.now(timezone.utc).isoformat()
+
+                    # Cache result
+                    cache[today_key] = ideas[:3]
+                    save_cache(cache)
+                    log(f"Big Ideas: generated {len(ideas[:3])} ideas")
+                    return ideas[:3]
+
+    except Exception as e:
+        log(f"Big Ideas generation failed: {e}")
+
+    return []
+
+
+def main():
+    print("=" * 60)
+    print(f"  new.bradley.io nightly pipeline")
+    print(f"  {datetime.now(timezone.utc).isoformat()}")
+    print("=" * 60)
+
+    # Stage 1: Collect
+    print("\n[Stage 1] Collecting data sources...")
+    claude_web = collect_claude_web()
+    github_repos = collect_github()
+    ai_pilot = collect_ai_pilot()
+
+    # Stage 2: Merge & Deduplicate
+    print("\n[Stage 2] Merging & deduplicating projects...")
+    projects = merge_projects(claude_web, github_repos, ai_pilot)
+    log(f"Merged: {len(projects)} unique projects")
+
+    # Stage 3: AI Enrichment
+    print("\n[Stage 3] AI enrichment...")
+    projects = enrich_with_ai(projects)
+    projects = generate_claude_recommendations(projects)
+
+    # Sort projects by lastActivity (newest first)
+    projects.sort(key=lambda p: p.get("lastActivity", ""), reverse=True)
+
+    # Stage 4: Build Activity Feed
+    print("\n[Stage 4] Building activity feed...")
+    activity_feed = build_activity_feed(projects, claude_web, github_repos, ai_pilot)
+    log(f"Activity feed: {len(activity_feed)} items")
+
+    # Stage 5: Big Ideas (Cross-Org Commit Intelligence)
+    print("\n[Stage 5] Cross-org commit analysis...")
+    cross_org_commits = collect_cross_org_commits()
+    big_ideas = generate_big_ideas(cross_org_commits)
+    log(f"Big Ideas: {len(big_ideas)} themes identified")
+
+    # Stage 6: Output
+    print("\n[Stage 6] Writing output...")
+    stats = build_stats(projects, ai_pilot)
+    claude_corner = generate_claude_corner(projects, stats)
+
+    site_data = {
+        "generated": datetime.now(timezone.utc).isoformat(),
+        "stats": stats,
+        "activityFeed": activity_feed,
+        "projects": projects,
+        "categories": build_category_summaries(projects),
+        "about": build_about(ai_pilot),
+        "labProjects": [p for p in projects if p.get("isResearch")],
+    }
+    if big_ideas:
+        site_data["bigIdeas"] = big_ideas
+    if claude_corner:
+        site_data["claudeCorner"] = claude_corner
+
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_FILE.write_text(json.dumps(site_data, indent=2, default=str))
+    print(f"\n  Wrote {OUTPUT_FILE}")
+    print(f"  {len(projects)} projects, {len(activity_feed)} activity items")
+    print(f"  Stats: {json.dumps(stats)}")
+
+    # Refresh MCP catalog
+    mcp_script = SCRIPT_DIR / "generate-mcp-catalog.py"
+    if mcp_script.exists():
+        print("\n[Stage 7] Refreshing MCP catalog...")
+        try:
+            args = [sys.executable, str(mcp_script)]
+            if VERBOSE:
+                args.append("--verbose")
+            subprocess.run(args, timeout=60)
+        except Exception as e:
+            log(f"MCP catalog refresh failed: {e}")
+
+    print(f"\n{'=' * 60}")
+
+
+if __name__ == "__main__":
+    main()
