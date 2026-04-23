@@ -55,5 +55,8 @@ logs/
 # Pipeline caches
 .*-timeline-cache.json
 
+# Data is mirrored from bradleyio by cron (see bradleyio/scripts/mirror-to-cjgaldescom.sh)
+/public/data/
+
 # misc (cross-platform)
 Thumbs.db
