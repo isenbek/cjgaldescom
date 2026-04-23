@@ -235,7 +235,7 @@ export function Navigation() {
             <Link href="/" className="flex items-center gap-3 text-sf-white">
               <ForgeIcon size={36} />
               <span className="text-xl font-bold tracking-tight">
-                bradley<span style={{ color: "var(--brand-primary)" }} className="font-normal">.io</span>
+                CJ <span style={{ color: "var(--brand-primary)" }} className="font-normal">Galdes</span>
               </span>
             </Link>
 
