@@ -21,7 +21,7 @@ export default function ContentDraftPreview() {
     >
       <div className="mx-auto max-w-[68ch] px-6 pb-16 pt-28 text-[17px] leading-[1.7]">
         <div className="mb-12 rounded-md border border-neutral-300 bg-neutral-50 px-5 py-4 font-sans text-sm leading-relaxed text-neutral-600">
-          <strong className="text-neutral-900">Revised draft for review.</strong> Local media dropped from the elevator pitches (Home &ldquo;What I do now&rdquo; and About &ldquo;What I work on&rdquo;); it now lives only in the Work section as the last and shortest entry. The bolt-on feeling is gone.
+          <strong className="text-neutral-900">Revised draft for review.</strong> Local media removed from the site entirely. The story is RuralAMFM, Strategic National, and the USVI hospitality portfolio. Nothing tacked on.
         </div>
 
         {/* HOME */}
@@ -145,16 +145,6 @@ export default function ContentDraftPreview() {
           </p>
           <p className="mb-5">
             The idea isn&apos;t working people harder. It&apos;s rebuilding the workflows so the repeatable 80% is automated and the judgment work is where people actually spend their attention. A small team can run what most hospitality groups need ten times the headcount for.
-          </p>
-
-          <h2 className="mt-12 mb-2 font-sans text-2xl font-semibold tracking-tight text-neutral-900">
-            Media ventures
-          </h2>
-          <p className="mb-4 font-sans text-sm uppercase tracking-wider text-neutral-500">
-            Operator &middot; U.S. Virgin Islands
-          </p>
-          <p className="mb-5">
-            An independent ad-supported news publication covering St. John, with readership on the island and among visitors across the USVI.
           </p>
         </section>
 
