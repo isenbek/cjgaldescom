@@ -4,62 +4,26 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useState, useEffect } from "react"
 import Image from "next/image"
-import { X, Folder, Cpu, GitBranch, User } from "lucide-react"
-import { ForgeIcon } from "@/components/ui/ForgeIcon"
+import { X, User } from "lucide-react"
 import { clsx } from "clsx"
 import { AnimatePresence, motion } from "framer-motion"
 
 const navGroups = [
   {
-    label: "Projects",
+    label: "Site",
     color: "var(--brand-primary)",
-    icon: Folder,
-    items: [
-      { href: "/projects", label: "All Projects" },
-      { href: "/lab", label: "Lab" },
-    ],
-  },
-  {
-    label: "Timelines",
-    color: "var(--brand-secondary)",
-    icon: GitBranch,
-    items: [
-      { href: "/projects/nominate-ai", label: "Nominate-AI" },
-      { href: "/projects/tinymachines", label: "tinymachines" },
-      { href: "/projects/sysforge-ai", label: "Sysforge-AI" },
-      { href: "/projects/isenbek", label: "isenbek" },
-    ],
-  },
-  {
-    label: "Tools",
-    color: "var(--brand-info)",
-    icon: Cpu,
-    items: [
-      { href: "/ai-pilot", label: "AI Pilot" },
-      { href: "/mcp", label: "MCP Catalog" },
-      { href: "/papers", label: "Papers" },
-      { href: "/cost-analysis", label: "Cost Analysis" },
-    ],
-  },
-  {
-    label: "Profile",
-    color: "var(--brand-warning)",
     icon: User,
     items: [
+      { href: "/", label: "Home" },
       { href: "/about", label: "About" },
-      { href: "/services", label: "Services" },
-      { href: "/style-guide", label: "Style Guide" },
+      { href: "/work", label: "Work" },
     ],
   },
 ]
 
 const topLevelLinks = [
-  { href: "/projects", label: "Projects" },
-  { href: "/services", label: "Services" },
-  { href: "/ai-pilot", label: "AI Pilot" },
-  { href: "/lab", label: "Lab" },
-  { href: "/mcp", label: "MCP" },
   { href: "/about", label: "About" },
+  { href: "/work", label: "Work" },
 ]
 
 function MobileDrawer({
@@ -134,10 +98,9 @@ function MobileDrawer({
                 className="flex items-center justify-between px-5 py-4"
                 style={{ borderBottom: "1px solid var(--brand-border)" }}
               >
-                <div className="flex items-center gap-2.5">
-                  <ForgeIcon size={24} />
+                <div className="flex items-center">
                   <span className="text-sm font-bold tracking-tight">
-                    cjgaldes<span style={{ color: "var(--brand-primary)" }} className="font-normal">.com</span>
+                    CJ <span style={{ color: "var(--brand-primary)" }} className="font-normal">Galdes</span>
                   </span>
                 </div>
                 <button
@@ -232,8 +195,7 @@ export function Navigation() {
       >
         <nav className="container-page">
           <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-3 text-sf-white">
-              <ForgeIcon size={36} />
+            <Link href="/" className="flex items-center text-sf-white">
               <span className="text-xl font-bold tracking-tight">
                 CJ <span style={{ color: "var(--brand-primary)" }} className="font-normal">Galdes</span>
               </span>

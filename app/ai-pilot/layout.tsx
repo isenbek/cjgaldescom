@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   title: "AI Pilot License Dashboard",
   description:
     "Real-time analytics of Claude AI usage — activity heatmaps, competency ratings, token economy, mission logs, and piloting style analysis.",

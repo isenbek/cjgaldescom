@@ -1,22 +1,22 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Bradley Isenbek — About",
+  title: "About",
   description:
-    "Bradley Isenbek (Brad Isenbek, Bradley S. Isenbek) — AI Systems Architect and Frontier Technologist based in Grand Rapids, MI. 15+ years building systems at scale, from ESP32 mesh networks to Fortune 500 data warehouses.",
+    "About CJ Galdes. Marketing and operations executive across political radio, hospitality, and media ventures. Director at RuralAMFM. Deputy Director at Strategic National.",
   alternates: { canonical: "/about" },
   openGraph: {
-    title: "Bradley Isenbek — About",
+    title: "About | CJ Galdes",
     description:
-      "Bradley Isenbek — AI Systems Architect. 15+ years building at the intersection of enterprise scale and maker culture.",
+      "CJ Galdes. Operator across political radio, hospitality, and media ventures. Director at RuralAMFM. Deputy Director at Strategic National.",
     url: "https://cjgaldes.com/about",
     type: "profile",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bradley Isenbek — About",
+    title: "About | CJ Galdes",
     description:
-      "AI Systems Architect and Frontier Technologist based in Grand Rapids, MI.",
+      "Operator across political radio, hospitality, and media ventures in the U.S. Virgin Islands.",
   },
 }
 
@@ -31,7 +31,7 @@ export default function AboutLayout({ children }: { children: React.ReactNode })
             "@type": "ProfilePage",
             "@id": "https://cjgaldes.com/about",
             url: "https://cjgaldes.com/about",
-            name: "About Bradley Isenbek",
+            name: "About CJ Galdes",
             mainEntity: { "@id": "https://cjgaldes.com/#person" },
             isPartOf: { "@id": "https://cjgaldes.com/#website" },
             about: { "@id": "https://cjgaldes.com/#person" },

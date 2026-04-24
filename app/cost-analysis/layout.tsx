@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   title: "Cost Analysis",
   description:
     "What does it cost to build software with AI? A data-driven comparison of legacy team development vs. AI-assisted solo engineering — using real project data from Campaign Brain.",

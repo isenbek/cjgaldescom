@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   title: "MCP Service Catalog",
   description:
     "Campaign Brain service catalog — 22 FastAPI microservices with 85+ endpoints across AI, data, communication, infrastructure, and business operations.",

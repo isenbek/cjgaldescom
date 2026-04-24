@@ -1,152 +1,75 @@
-import { Calendar, Code, Cpu, Database } from "lucide-react"
-import { loadSiteDataStatic } from "@/lib/site-data"
+import type { Metadata } from "next"
 
-export const revalidate = 3600
+export const metadata: Metadata = {
+  title: "About",
+  description:
+    "About CJ Galdes. Marketing and operations executive across political radio, hospitality, and media ventures. Director at RuralAMFM. Deputy Director at Strategic National.",
+}
 
-export default async function AboutPage() {
-  const data = await loadSiteDataStatic()
-  const about = data.about
-  const stats = data.stats
-
+export default function AboutPage() {
   return (
-    <div className="pt-20 sm:pt-24 pb-10 sm:pb-16">
-      <section className="container-page text-center mb-8 sm:mb-16">
-        <div
-          className="text-xs font-semibold uppercase tracking-[3px] mb-3"
-          style={{ color: "var(--brand-secondary)" }}
-        >
+    <main className="container-page min-h-[calc(100vh-4rem)] pt-28 pb-24">
+      <article className="max-w-2xl">
+        <p className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-sf-steel">
           About
-        </div>
-        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-4">
-          Bradley S. Isenbek
+        </p>
+
+        <h1 className="mt-4 font-display text-4xl font-bold tracking-tight text-sf-white sm:text-5xl">
+          Background
         </h1>
-        <p className="text-base md:text-lg max-w-2xl mx-auto leading-relaxed" style={{ color: "var(--brand-muted)" }}>
-          AI Systems Architect | Machine Learning Engineer | Frontier Technologist
-        </p>
-        <p className="text-sm mt-2 font-mono" style={{ color: "var(--brand-muted)" }}>
-          Grand Rapids, MI
-        </p>
-        <p className="sr-only">
-          Bradley Isenbek (also known as Brad Isenbek and Bradley S. Isenbek) is a frontier technologist, AI systems architect, and data engineer based in Grand Rapids, Michigan.
-        </p>
-      </section>
 
-      <div className="container-page grid lg:grid-cols-[1fr_300px] gap-6 sm:gap-10">
-        {/* Main */}
-        <div className="space-y-8">
-          {/* Bio */}
-          <div
-            className="rounded-xl p-5 sm:p-8"
-            style={{
-              background: "var(--brand-bg-alt)",
-              border: "1px solid var(--brand-border)",
-            }}
-          >
-            <h2 className="text-lg font-bold mb-4">Bio</h2>
-            <p className="leading-relaxed" style={{ color: "var(--brand-muted)" }}>
-              {about.bio}
-            </p>
-          </div>
-
-          {/* Timeline */}
-          <div
-            className="rounded-xl p-5 sm:p-8"
-            style={{
-              background: "var(--brand-bg-alt)",
-              border: "1px solid var(--brand-border)",
-            }}
-          >
-            <h2 className="text-lg font-bold mb-6">Timeline</h2>
-            <div className="space-y-6">
-              {about.timeline.map((entry, i) => (
-                <div key={i} className="flex gap-4">
-                  <div className="flex flex-col items-center">
-                    <div
-                      className="w-8 h-8 rounded-full flex items-center justify-center shrink-0"
-                      style={{
-                        background: "color-mix(in srgb, var(--brand-primary) 10%, transparent)",
-                        border: "1px solid color-mix(in srgb, var(--brand-primary) 25%, transparent)",
-                      }}
-                    >
-                      <Calendar className="w-4 h-4" style={{ color: "var(--brand-primary)" }} />
-                    </div>
-                    {i < about.timeline.length - 1 && (
-                      <div className="w-px flex-1 mt-2" style={{ background: "var(--brand-border)" }} />
-                    )}
-                  </div>
-                  <div className="pb-6">
-                    <div className="text-xs font-mono mb-1" style={{ color: "var(--brand-primary)" }}>
-                      {entry.year}
-                    </div>
-                    <div className="text-base font-bold mb-1">{entry.title}</div>
-                    <div className="text-sm" style={{ color: "var(--brand-muted)" }}>
-                      {entry.description}
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+        <div className="mt-10 space-y-6 text-lg leading-relaxed text-sf-white/85">
+          <p>
+            Most companies don&apos;t have a talent problem or a capital problem. They have a systems problem. The system they&apos;re running was designed for a different era and a different set of tools, and the people inside it are working around the system more than through it.
+          </p>
+          <p>
+            My job is to find the real system underneath, and rebuild it so it runs without me in the room.
+          </p>
         </div>
 
-        {/* Sidebar */}
-        <div className="space-y-6">
-          {/* Stats */}
-          <div
-            className="rounded-xl p-4 sm:p-6"
-            style={{
-              background: "var(--brand-bg-alt)",
-              border: "1px solid var(--brand-border)",
-            }}
-          >
-            <h3 className="text-sm font-bold uppercase tracking-widest mb-4" style={{ color: "var(--brand-muted)" }}>
-              By the Numbers
-            </h3>
-            <div className="space-y-4">
-              {[
-                { label: "Projects", value: stats.totalProjects, icon: Code },
-                { label: "AI Sessions", value: stats.totalSessions, icon: Cpu },
-                { label: "Messages", value: stats.totalMessages.toLocaleString(), icon: Database },
-                { label: "Active Days", value: stats.activeDays, icon: Calendar },
-              ].map((stat) => (
-                <div key={stat.label} className="flex items-center gap-3">
-                  <stat.icon className="w-4 h-4" style={{ color: "var(--brand-primary)" }} />
-                  <span className="text-sm flex-1" style={{ color: "var(--brand-muted)" }}>{stat.label}</span>
-                  <span className="font-mono font-bold text-sm">{stat.value}</span>
-                </div>
-              ))}
-            </div>
-          </div>
+        <h2 className="mt-16 font-display text-2xl font-semibold tracking-tight text-sf-white">
+          What I work on
+        </h2>
 
-          {/* Skills */}
-          <div
-            className="rounded-xl p-4 sm:p-6"
-            style={{
-              background: "var(--brand-bg-alt)",
-              border: "1px solid var(--brand-border)",
-            }}
-          >
-            <h3 className="text-sm font-bold uppercase tracking-widest mb-4" style={{ color: "var(--brand-muted)" }}>
-              Skills
-            </h3>
-            <div className="flex flex-wrap gap-1.5">
-              {about.skills.map((skill) => (
-                <span
-                  key={skill}
-                  className="text-[11px] font-mono px-2.5 py-1 rounded-lg"
-                  style={{
-                    background: "color-mix(in srgb, var(--brand-primary) 8%, transparent)",
-                    border: "1px solid color-mix(in srgb, var(--brand-primary) 20%, transparent)",
-                    color: "var(--brand-primary)",
-                  }}
-                >
-                  {skill}
-                </span>
-              ))}
-            </div>
-          </div>
+        <div className="mt-6 space-y-6 text-lg leading-relaxed text-sf-white/85">
+          <p>
+            <strong className="text-sf-white">Political radio.</strong> RuralAMFM is a rep agency that represents radio stations to political campaigns, PACs, and corporate advertisers. We specialize in rural, independent, and unrated markets. Stations that don&apos;t show up in the standard buys but reach the voters who actually decide elections. The business exists because there was a gap between where political money gets spent and where actual voters listen. We built the system that closes it.
+          </p>
+          <p>
+            <strong className="text-sf-white">Caribbean hospitality.</strong> I operate a portfolio of resorts, restaurants, and bars on St. John in the U.S. Virgin Islands. The businesses are traditional. The way we run them isn&apos;t. Every property is wired into a shared stack of automation and AI workflows that lets a small team run what most groups need ten times the headcount to manage.
+          </p>
         </div>
-      </div>
-    </div>
+
+        <h2 className="mt-16 font-display text-2xl font-semibold tracking-tight text-sf-white">
+          How I work
+        </h2>
+
+        <div className="mt-6 space-y-6 text-lg leading-relaxed text-sf-white/85">
+          <p>
+            AI is the lever for me. Not as a gimmick, not as a talking point. As actual infrastructure. I&apos;ve rebuilt marketing, HR, finance, and operations workflows across the portfolio so AI handles the repeatable work and people handle judgment, relationships, and taste. The goal is never to replace operators. It&apos;s to give them leverage that didn&apos;t exist two years ago.
+          </p>
+        </div>
+
+        <h2 className="mt-16 font-display text-2xl font-semibold tracking-tight text-sf-white">
+          How I got here
+        </h2>
+
+        <div className="mt-6 space-y-6 text-lg leading-relaxed text-sf-white/85">
+          <p>
+            I came up in Michigan politics. I ran political field operations across multiple states, including as Deputy State Director for the Trump campaign in Michigan during the 2016 cycle. From there I moved into political consulting, where I&apos;m still Deputy Director at <strong className="text-sf-white">Strategic National</strong>. Over time I expanded into operating businesses outside politics too, which is where most of my day to day work lives now.
+          </p>
+        </div>
+
+        <h2 className="mt-16 font-display text-2xl font-semibold tracking-tight text-sf-white">
+          Personal
+        </h2>
+
+        <div className="mt-6 space-y-6 text-lg leading-relaxed text-sf-white/85">
+          <p>
+            I live in Michigan with my wife and our twin toddler boys. Most of my workday is spent making chaotic businesses predictable. The house is the one system I haven&apos;t cracked yet.
+          </p>
+        </div>
+      </article>
+    </main>
   )
 }

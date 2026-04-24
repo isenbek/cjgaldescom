@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   title: "Research Lab",
   description:
     "Frontier experiments in hardware, AI, and creative computing. Boundary-pushing research projects that explore what's possible.",

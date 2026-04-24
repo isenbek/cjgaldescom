@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     "Design system reference for cjgaldes.com — theme tokens, typography, color palettes, and component patterns.",
   alternates: { canonical: "/style-guide" },
-  robots: { index: false, follow: true },
+  robots: { index: false, follow: false },
 }
 
 export default function StyleGuideLayout({ children }: { children: React.ReactNode }) {

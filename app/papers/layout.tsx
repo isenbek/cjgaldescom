@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   title: "Research Papers",
   description:
     "TerraPulse research — 18 active studies in seismology, space weather, climate, and cross-domain environmental analysis. Powered by open government data and reproducible methods.",
