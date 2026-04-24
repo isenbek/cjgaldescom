@@ -60,3 +60,4 @@ logs/
 
 # misc (cross-platform)
 Thumbs.db
+/.superpowers/

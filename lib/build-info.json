@@ -1,9 +1,9 @@
 {
-  "version": "v0.1.1",
-  "commitHash": "0b7a80d",
-  "commitHashFull": "0b7a80d74ea5d78ae591df1b037a0c0d4bb3cff9",
-  "commitDate": "Apr 23, 2026 18:43:30",
-  "commitDateISO": "2026-04-23T22:43:30.000Z",
+  "version": "v0.1.2",
+  "commitHash": "e1b13bc",
+  "commitHashFull": "e1b13bcee90d57ac5a202e2c54ba13d964e8f694",
+  "commitDate": "Apr 23, 2026 19:20:06",
+  "commitDateISO": "2026-04-23T23:20:06.000Z",
   "branch": "main",
-  "buildTime": "2026-04-23T22:43:31.014Z"
+  "buildTime": "2026-04-23T23:20:07.058Z"
 }
