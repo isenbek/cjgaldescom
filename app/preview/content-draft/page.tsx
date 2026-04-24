@@ -21,7 +21,7 @@ export default function ContentDraftPreview() {
     >
       <div className="mx-auto max-w-[68ch] px-6 pb-16 pt-28 text-[17px] leading-[1.7]">
         <div className="mb-12 rounded-md border border-neutral-300 bg-neutral-50 px-5 py-4 font-sans text-sm leading-relaxed text-neutral-600">
-          <strong className="text-neutral-900">Revised draft for review.</strong> Changes this round: em dashes removed throughout, AI-polish language trimmed, Local Media demoted and stripped of any AI reference, Strategic National expanded, annotation clutter removed so the copy can be read straight.
+          <strong className="text-neutral-900">Revised draft for review.</strong> Local media dropped from the elevator pitches (Home &ldquo;What I do now&rdquo; and About &ldquo;What I work on&rdquo;); it now lives only in the Work section as the last and shortest entry. The bolt-on feeling is gone.
         </div>
 
         {/* HOME */}
@@ -45,7 +45,7 @@ export default function ContentDraftPreview() {
           </h2>
 
           <p>
-            Director at <strong>RuralAMFM</strong>, a political radio agency connecting campaigns to rural and independent stations across the country. Deputy Director at <strong>Strategic National</strong>, where I help run national and statewide campaigns. Operator of a hospitality portfolio in the U.S. Virgin Islands, with a smaller local media venture alongside it.
+            Director at <strong>RuralAMFM</strong>, a political radio agency connecting campaigns to rural and independent stations across the country. Deputy Director at <strong>Strategic National</strong>, where I help run national and statewide campaigns. Operator of a hospitality portfolio in the U.S. Virgin Islands.
           </p>
         </section>
 
@@ -75,10 +75,6 @@ export default function ContentDraftPreview() {
 
           <p className="mb-5">
             <strong>Caribbean hospitality.</strong> I operate a portfolio of resorts, restaurants, and bars on St. John in the U.S. Virgin Islands. The businesses are traditional. The way we run them isn&apos;t. Every property is wired into a shared stack of automation and AI workflows that lets a small team run what most groups need ten times the headcount to manage.
-          </p>
-
-          <p className="mb-5">
-            <strong>Local media.</strong> I also operate an independent news publication covering St. John. Ad-supported, with readership on the island and among visitors across the USVI.
           </p>
 
           <h3 className="mb-4 mt-10 font-sans text-xl font-semibold tracking-tight text-neutral-900">
